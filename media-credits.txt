@@ -1,0 +1,26 @@
+Replacement learning illustrations
+OpenMoji assets: https://openmoji.org/ — version16.0.0.
+OpenMoji license: Creative Commons Attribution-ShareAlike4.0 International — https://creativecommons.org/licenses/by-sa/4.0/
+Modifications: scaling, arrangement, and composition on a white background for educational exercises. OpenMoji-derived compositions are also CC BY-SA4.0. No endorsement implied.
+potato (1F954) — Marius Schnabel — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F954.svg
+man (1F468) — Johanna Wellnitz — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468.svg
+woman (1F469) — Johanna Wellnitz — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg
+man cook (1F468-200D-1F373) — Lisa Thiel — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468-200D-1F373.svg
+woman cook (1F469-200D-1F373) — Lisa Thiel — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469-200D-1F373.svg
+man running (1F3C3-200D-2642-FE0F) — Rifat Erdogan — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F3C3-200D-2642-FE0F.svg
+woman health worker (1F469-200D-2695-FE0F) — Lisa Thiel — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469-200D-2695-FE0F.svg
+flag: United States (1F1FA-1F1F8) — Ferdinand Sorg — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1FA-1F1F8.svg
+flag: United Kingdom (1F1EC-1F1E7) — Daniel Utz — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1EC-1F1E7.svg
+flag: Australia (1F1E6-1F1FA) — Ferdinand Sorg — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1E6-1F1FA.svg
+flag: Russia (1F1F7-1F1FA) — Ferdinand Sorg — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1F7-1F1FA.svg
+flag: Canada (1F1E8-1F1E6) — Ferdinand Sorg — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1E8-1F1E6.svg
+flag: Ireland (1F1EE-1F1EA) — Ferdinand Sorg — https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1EE-1F1EA.svg
+
+Newly authored vector artwork: hairbrushes, berries, bluebells, spinner, gradients and translucent overlay. Prepared for this website; released under CC0-1.0.
+These are suitable replacement illustrations, not recovered copies of the original missing images.
+The original exercises specify gender and nationality only, and do not name a politician; the corresponding pictures use illustrated people with the required flags.
+
+AUDIO
+20 original recordings recovered from Study-Languages-Online.com via the Internet Archive.
+419 English narration files created for this website with the en-GB-SoniaNeural voice, with a slightly slower learning pace. These are newly synthesized recordings, not recovered originals.
+All audio is served as static MP3 files. No browser speech synthesis is used.

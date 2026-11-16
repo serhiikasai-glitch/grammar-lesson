@@ -1,0 +1,1321 @@
+<!doctype html><html lang="uk"><head><script src="/language.js"></script>
+
+  <title>Займенники this, that — урок 12 | Граматика для дітей</title>
+  
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"/>
+
+
+
+
+
+<link href="/stylesheets/stylesheet.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<script src="/uk/javascripts/jquery-1.4.2.min.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/effects.js?1492466881" type="text/javascript"></script>
+
+
+<link href="/stylesheets/nex-block.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/flash-simple.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/custom-theme/jquery-ui-1.8.5.custom.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/lexical-test.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/lexical-test-p.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/dialog_player.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/short-unit.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+
+<script src="/uk/javascripts/flash-simple.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/nex-block.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/jquery-ui-1.8.16.dial.min.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/jquery.jplayer.min.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/jp-control.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/lexical-test.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/lexical-test-p.js?1492466881" type="text/javascript"></script>
+<script src="/uk/javascripts/short-unit.js?1492466881" type="text/javascript"></script>
+<script type="text/javascript">
+openTabFromUrl();
+
+function stResults(source,step) {
+	var res = parseInt(source.text());
+	if (res>0 && res >= parseInt($("#step"+step).text()) ) {
+		var msg;
+		if (res < 60) {
+			msg='<span style="color:red" title="'+res+"%\">спробуй ще</span>";
+		} else if (res == 234) {
+			msg="<span style=\"color:#999\" title=\"Готово\">пройдено</span>";
+		} else if (res > 95) {
+			msg='<span style="color:green" title="'+res+"%\">чудово</span>";
+		} else if (res <= 95 && res > 80) {
+			msg='<span style="color:blue" title="'+res+"%\">дуже добре</span>";
+		}else {
+			msg='<span style="color:blue" title="'+res+"%\">добре</span>";
+		}
+		$("#gen_step"+step).html('<b>'+msg+'<\/b>')
+		$("#step"+step).text(res)
+	}
+}
+</script>
+
+
+<style>
+.ht-ex {color: red}
+.ps-miss-ans {font-weight: bold;}
+.ps-type-rand nobr span.ps-var-hidden {visibility: hidden;}
+.kid-opt div.ps-txt-letters:first-letter {text-transform: uppercase;}
+</style>
+
+
+<style>
+#head .t-top-panel  {display: none;}
+</style>
+
+
+
+<meta http-equiv="content-language" content="uk,en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/copy.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/modern.css"><link rel="stylesheet" href="/card-settings.css"><script src="/uk/modern.js" defer></script><script src="/card-data.js" defer></script><script src="/card-settings.js" defer></script><meta name="description" content="Англійська граматика для дітей: 25 уроків, зрозумілі правила та 148 інтерактивних вправ українською."><link rel="alternate" hreflang="uk" href="/uk/lessons/12.html"><link rel="alternate" hreflang="ru" href="/ru/lessons/12.html"><link rel="alternate" hreflang="en" href="/en/lessons/12.html"></head><body data-locale="uk" class="modern lesson-page tone-2" data-current-lesson="12"><a class="skip-link" href="#main">Перейти до вмісту</a><header class="site-header"><div class="header-inner"><a class="brand" href="/uk/" aria-label="Граматика — усі уроки"><span class="brand-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1m0-14c3-2 6-2 9-1v14c-3-1-6-1-9 1V6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span><strong>Граматика<span class="brand-dot">.</span></strong><small>Англійська для дітей</small></span></a><nav class="header-nav" aria-label="Основна навігація"><a href="/uk/#lessons">Усі уроки</a><a href="/uk/#learning-progress" class="nav-progress"><span class="progress-dot"></span>Мій прогрес</a></nav><label class="language-picker"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3q-8 9 0 18 8-9 0-18Z" stroke="currentColor" stroke-width="1.5"/></svg><select id="language-select" aria-label="Мова інтерфейсу"><option value="uk" lang="uk" selected>Українська</option><option value="ru" lang="ru">Русский</option><option value="en" lang="en">English</option></select></label></div></header><div class="lesson-layout m-menu-hidden" id="menu_content"><aside class="course-sidebar"><button class="course-toggle" aria-expanded="false" aria-controls="course-list"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1m0-14c3-2 6-2 9-1v14c-3-1-6-1-9 1V6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg> Програма курсу <span>⌄</span></button><div id="course-list" class="course-list"><div class="course-list-title">Твій шлях навчання <span>25 уроків</span></div><div class="course-module"><span class="module-label">1. Перші правила</span><a href="/uk/lessons/01.html" class="course-lesson" data-lesson="01" ><span class="course-number">01</span><span>Артикль a/an. Зворот this is</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/02.html" class="course-lesson" data-lesson="02" ><span class="course-number">02</span><span>Відсутність артикля</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/03.html" class="course-lesson" data-lesson="03" ><span class="course-number">03</span><span>Множина</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/04.html" class="course-lesson" data-lesson="04" ><span class="course-number">04</span><span>Множина (винятки)</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/05.html" class="course-lesson" data-lesson="05" ><span class="course-number">05</span><span>Числа від 1 до 10</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">2. Знайомимося й рахуємо</span><a href="/uk/lessons/06.html" class="course-lesson" data-lesson="06" ><span class="course-number">06</span><span>Особові займенники</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/07.html" class="course-lesson" data-lesson="07" ><span class="course-number">07</span><span>Вживання дієслова to be</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/08.html" class="course-lesson" data-lesson="08" ><span class="course-number">08</span><span>Заперечна форма дієслова to be</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/09.html" class="course-lesson" data-lesson="09" ><span class="course-number">09</span><span>Питальна форма дієслова to be</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/10.html" class="course-lesson" data-lesson="10" ><span class="course-number">10</span><span>Числа від 10 до 20</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">3. Описуємо світ</span><a href="/uk/lessons/11.html" class="course-lesson" data-lesson="11" ><span class="course-number">11</span><span>Займенники my, your тощо</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/12.html" class="course-lesson is-current" data-lesson="12" aria-current="page"><span class="course-number">12</span><span>Займенники this, that</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/13.html" class="course-lesson" data-lesson="13" ><span class="course-number">13</span><span>Означений артикль</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/14.html" class="course-lesson" data-lesson="14" ><span class="course-number">14</span><span>Прийменники місця</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/15.html" class="course-lesson" data-lesson="15" ><span class="course-number">15</span><span>Числа від 20 до 100</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">4. Що є навколо</span><a href="/uk/lessons/16.html" class="course-lesson" data-lesson="16" ><span class="course-number">16</span><span>Зворот there is/there are</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/17.html" class="course-lesson" data-lesson="17" ><span class="course-number">17</span><span>Питання з зворотом there is/there are</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/18.html" class="course-lesson" data-lesson="18" ><span class="course-number">18</span><span>Зворот to have got</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/19.html" class="course-lesson" data-lesson="19" ><span class="course-number">19</span><span>Питання з зворотом have got</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/20.html" class="course-lesson" data-lesson="20" ><span class="course-number">20</span><span>Присвійний відмінок</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">5. Говоримо про дії</span><a href="/uk/lessons/21.html" class="course-lesson" data-lesson="21" ><span class="course-number">21</span><span>Дієслово can</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/22.html" class="course-lesson" data-lesson="22" ><span class="course-number">22</span><span>Теперішній простий час (Present Simple)</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/23.html" class="course-lesson" data-lesson="23" ><span class="course-number">23</span><span>Present Simple: особливі випадки</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/24.html" class="course-lesson" data-lesson="24" ><span class="course-number">24</span><span>Питання в Present Simple</span><span class="course-complete" hidden>✓</span></a><a href="/uk/lessons/25.html" class="course-lesson" data-lesson="25" ><span class="course-number">25</span><span>Прислівники частотності</span><span class="course-complete" hidden>✓</span></a></div></div></aside><main id="contentcell" class="lesson-main"><div id="main"><a class="back-to-lessons" href="/uk/#lessons">← Усі уроки</a><div class="lesson-heading"><span class="eyebrow">Описуємо світ <span class="heading-separator">/</span> Урок 12 з 25</span><h1>Займенники this, that</h1><p>Показуємо на близьке й далеке. <span>6 вправ</span></p></div><div class="lesson-completion"><span id="lesson-progress-label">Твій прогрес в уроці</span><div class="progress-track"><i id="lesson-progress-fill"></i></div></div><div id="contfield" class="lesson-content">
+      
+
+
+
+
+
+<div class="unit-area">
+
+
+<div id="prof_tabs">
+
+
+	<div id="tabs_row">
+            <div id="tab01" class="ptab current_ptab"><div><a href="#" style="color: #000;">Вправи</a></div></div>
+			<div id="tab02" class="ptab"><div><a href="#">Правила</a></div></div>
+            		<div id="tab03" class="ptab"><div><a href="#">Результати</a></div></div>
+	</div>
+	<div style="clear: both;"></div>
+</div>
+
+<div id="for_tab01" class="pBlock" style="display: block">
+	<div class="inpBlock" id="nb1">
+	
+<div class="nex-tabs-wrapper" style="border: 0px solid #fff"> 
+	<div style="float: left; "> 
+		<ul class="nex-tabs"> 
+			<li class="nex-tab-first nex-t-active"><a href="javascript:;">1</a></li> 
+			<li><a href="javascript:;">2</a></li> 
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li>
+			<li class="nex-tab-last"><a href="javascript:;">6</a></li> 
+		</ul> 
+	</div> 
+	<div align="right" style="font-size: 12px; float: right;"> 
+		<ul class="nex-sw"> 
+			<li class="nex-sw-first nex-sw-active"><a href="javascript:;"><img src="/images/icons/fugue/application-b.png"></a></li> 
+			<li class="nex-sw-last"><a href="javascript:;"><img src="/images/icons/fugue/application-tile-vertical-b.png"></a></li> 
+		</ul>
+	</div>
+</div>
+
+
+<div class="nex-wrapper">
+<div class="nex-h-helper">
+<div class="nex-helper">
+
+<div class="nex-block nex-block-active">
+<div class="nex-header">Вправа 1. Ознайомся з фразами та їхнім перекладом </div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Підказка">
+Натискай «Далі» та «Назад», щоб переходити між фразами. <br/>
+Вибери мову транскрипції над карткою. Натисни на значок звуку, слухай і повторюй. Підказка літерами приблизна: риска над голосною позначає наголос, двокрапка — довший звук.
+</div>
+
+
+<div class="fs-container" id="fs1">
+
+
+
+
+
+
+
+
+
+
+
+<div style="position: absolute; top: 5px; right: 5px; z-index: 1000;"> 
+<div class="tb_settings-wrap"> 
+   <div class="drop_1 toopen opt-autoplay"><span style="padding-left: 12px;">Відтворювати</span></div> 
+	<div class="drop_2 opt-autoplay"> 
+		<div class="drop_2bl opt-autoplays" style="display: none"> 
+			<div class="drop_2x"><span class="tcheck opt-autoplay_on">автоматично</span></div>
+			<div class="drop_2x"><span class="tcheck opt-autoplay_off">вручну</span></div>  
+		</div>	
+	</div>
+   <div class="drop_1 toopen"><span style="padding-left: 12px;">Транскрипція</span></div> 
+	<div class="drop_2"> 
+		<div class="drop_2bl opt-transcribe" style="display: none"> 
+			<div class="drop_2x"><span class="tcheck opt-transcribe_on">показати</span></div>
+			<div class="drop_2x"><span class="tcheck opt-transcribe_off">сховати</span></div>  
+		</div>	
+	</div>
+
+</div> 
+<div class="tb_settings"><span>Налаштування</span></div> 
+</div>
+
+	<div class="fs-show-count">&nbsp;</div>
+	<div class="fs-window">
+		<div class="fs-article-wrapper">
+			<table width="100%" cellspacing="0">
+			<col><col>
+				<tr>
+					<td rowspan="3" class="fs-img-holder" height="150">
+						<div class="fs-picture"></div>
+					</td>
+					<td height="70">
+						<div class="fs-original"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table cellspacing="0" style="margin: 0 auto" align="center"><tr>
+							<td class="fs-transcript"></td>
+							<td style="text-align: left; height:19px;"><div class="fs-sound"> </div></td>
+						</tr></table>
+					</td>
+				</tr>
+				<tr>
+						<td><div class="fs-translate"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="fs-buttons-wrapper noselect">
+				<div class="fs-prev fs-btn noselect fs-btn-disabled">« Назад</div>
+				<div class="fs-next fs-btn noselect">Далі »</div>
+		</div>			
+	</div>
+</div>
+<script type="text/javascript"> 
+	var fs1 = new flash_show( {
+		id: "fs1",
+		images: 1,
+		//autoplay: 1,
+		sounds: 0,
+		transcribe: 0,
+		callback: function() { completeNex(0);stResults($("#fs-r"),0); sendResults('re_gk112010', 10, 10)},
+		orig_size: "small",
+		basic_array: [
+
+
+{"origin":"<span class=\'ht-ex\'>This<\/span> apple is green.",
+"transcript":"зіс е́пл із ґрі:н",
+"translate":"Це яблуко зелене.",
+"img":"/images/list/fruit/apple.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>That<\/span> apple is red.",
+"transcript":"зет е́пл із ред",
+"translate":"То яблуко червоне.",
+"img":"/images/list/fruit/apple-red.jpg","sound":""},
+
+{"origin":"What color is <span class=\'ht-ex\'>this<\/span> vase?",
+"transcript":"уот ка́лер із зіс ва:з?",
+"translate":"Якого кольору ця ваза?",
+"img":"/images/list/objects/vase.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>This<\/span> vase is brown.",
+"transcript":"зіс ва:з із браун",
+"translate":"Ця ваза коричнева.",
+"img":"/images/list/objects/vase.jpg","sound":""},
+
+{"origin":"What color is <span class=\'ht-ex\'>that<\/span> bus?",
+"transcript":"уот ка́лер із зет бас?",
+"translate":"Якого кольору той автобус?",
+"img":"/images/list/transport/bus.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>That<\/span> bus is blue.",
+"transcript":"зет бас із блу:",
+"translate":"Той автобус синій.",
+"img":"/images/list/transport/bus.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>These<\/span> berries are red.",
+"transcript":"зі:з бе́різ а: ред",
+"translate":"Ці ягоди червоні.",
+"img":"/images/list/berries/strawberries.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>Those<\/span> flowers are white.",
+"transcript":"зоуз фла́уез а: уайт",
+"translate":"Ті квіти білі.",
+"img":"/images/list/flowers/snowdrop.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>These<\/span> boys are American.",
+"transcript":"зі:з бойз а:р еме́рікен",
+"translate":"Ці діти - американці.",
+"img":"/images/list/countries/usa-flag-boys.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>Those<\/span> girls are Australian.",
+"transcript":"зоуз ґе:лз а:р остре́йліен",
+"translate":"Ті дівчинки - австралійки.",
+"img":"/images/list/countries/australia-sidney-girls.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>This is<\/span> a green apple.",
+"transcript":"зіс із е ґрі:н е́пл",
+"translate":"Це зелене яблуко.",
+"img":"/images/list/fruit/apple.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>That is<\/span> a red apple.",
+"transcript":"зет із е ред е́пл",
+"translate":"Це червоне яблуко.",
+"img":"/images/list/fruit/apple-red.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>These are<\/span> yellow apples.",
+"transcript":"зі:з а: йе́лоу е́плз",
+"translate":"Це жовті яблука.",
+"img":"/images/list/fruit/apples-yellow.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>Those are<\/span> red apples.",
+"transcript":"зоуз а: ред е́плз",
+"translate":"Це червоні яблука.",
+"img":"/images/list/fruit/apples-red.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>Are these<\/span> mice gray?",
+"transcript":"а: зі:з майс ґрей?",
+"translate":"Це сірі миші?",
+"img":"/images/list/animals/mice.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>Is this<\/span> pencil black?",
+"transcript":"із зіс пе́нсел блек?",
+"translate":"Цей олівець чорний?",
+"img":"/images/list/objects/pencil-1.jpg","sound":""},
+
+{"origin":"<span class=\'ht-ex\'>These<\/span> berries are not orange.",
+"transcript":"зі:з бе́різ а: нот о́ріндж",
+"translate":"Ці ягоди не помаранчеві.",
+"img":"/images/list/berries/bilberry.jpg","sound":""}
+
+		]
+		} )
+</script>	
+
+<span id="fs-r" style="display: none">234</span>	
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Вправа 2. Обери відповідний займенник</div>
+<div class="nex-container">
+
+
+<div id="ph1" class="pt-holder kid-inline">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Автоматичний перехід</span> </div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+	<td>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+		<td class="ps-quest" valign="middle" align="center" width="200">
+			<div class="ps-audio-wrapper">
+				<table width="100"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Перевірка">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td><td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Знову"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>		
+</div>
+
+<script type="text/javascript"> 
+	var ph1 = new ph_exercise( {
+		id: "ph1", 
+		test_id: 're_gk112020',
+		//quest_num: 10,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(1);stResults($("#ph1_result"),1)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		input_type: 'input',
+		//tp_no_space: true,
+		intext_input: true,
+		intext_replace: true,
+		spec_signs: false,
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Правильно","Неправильно","Далі >>","Результат","Залишилося","Усього запитань","Правильних відповідей","Результат","Показати відповідь","Перейти до наступного"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/flowers/lily.jpg' > ", 
+"forms": "This These",
+"correct": "This",
+inline: {"string": ["", " is a white flower."], width: 60},
+"answer": "This"},	
+
+{"quest": "<img src='/images/list/transport/bus.jpg' > ", 
+"forms": "this these",
+"correct": "this",
+inline: {"string": ["Is ", "a blue bus?"], width: 60},
+"answer": "this"},	
+
+{"quest": "<img src='/images/list/countries/britain-flag-boy.jpg' > ", 
+"forms": "This These",
+"correct": "This",
+inline: {"string": ["", " boy is English."], width: 60},
+"answer": "This"},	
+
+{"quest": "<img src='/images/list/countries/russian-flag-girl.jpg' > ", 
+"forms": "This These",
+"correct": "This",
+inline: {"string": ["", " girl is Russian."], width: 60},
+"answer": "This"},	
+
+{"quest": "<img src='/images/list/objects/vase.jpg' > ", 
+"forms": "This These",
+"correct": "This",
+inline: {"string": ["", " vase isn’t red."], width: 60},
+"answer": "This"},	
+
+{"quest": "<img src='/images/list/transport/buses.jpg' > ", 
+"forms": "These This",
+"correct": "These",
+inline: {"string": ["", " are blue buses."], width: 60},
+"answer": "These"},	
+
+{"quest": "<img src='/images/list/people/men.jpg' > ", 
+"forms": "These This",
+"correct": "These",
+inline: {"string": ["", " men are American."], width: 60},
+"answer": "These"},	
+
+{"quest": "<img src='/images/list/fruit/apples-red.jpg' > ", 
+"forms": "These This",
+"correct": "These",
+inline: {"string": ["", " apples are red."], width: 60},
+"answer": "These"},	
+
+{"quest": "<img src='/images/list/animals/mice.jpg' > ", 
+"forms": "These This",
+"correct": "These",
+inline: {"string": ["", " mice aren’t white."], width: 60},
+"answer": "These"},	
+
+{"quest": "<img src='/images/list/flowers/leaves.jpg' > ", 
+"forms": "these this",
+"correct": "these",
+inline: {"string": ["Are ", " leaves green?"], width: 60},
+"answer": "these"}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Вправа 3. Обери відповідний займенник.</div>
+<div class="nex-container">
+
+<div id="ph2" class="pt-holder kid-inline">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Автоматичний перехід</span> </div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+	<td>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+		<td class="ps-quest" valign="middle" align="center" width="200">
+			<div class="ps-audio-wrapper">
+				<table width="100"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Перевірка">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td><td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Знову"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>		
+</div>
+
+<script type="text/javascript"> 
+	var ph2 = new ph_exercise( {
+		id: "ph2", 
+		test_id: 're_gk112030',
+		//quest_num: 10,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(2);stResults($("#ph2_result"),2)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		input_type: 'input',
+		//tp_no_space: true,
+		intext_input: true,
+		intext_replace: true,
+		spec_signs: false,
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Правильно","Неправильно","Далі >>","Результат","Залишилося","Усього запитань","Правильних відповідей","Результат","Показати відповідь","Перейти до наступного"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/accessories/handbag.jpg' > ", 
+"forms": "That Those",
+"correct": "That",
+inline: {"string": ["", " is a brown bag."], width: 60},
+"answer": "That"},	
+
+{"quest": "<img src='/images/list/transport/schoolbus.png' > ", 
+"forms": "that those",
+"correct": "that",
+inline: {"string": ["Is ", " a blue bus?"], width: 60},
+"answer": "that"},	
+
+{"quest": "<img src='/images/list/flowers/leaf.jpg' > ", 
+"forms": "That Those",
+"correct": "That",
+inline: {"string": ["", " leaf is green."], width: 60},
+"answer": "That"},	
+
+{"quest": "<img src='/images/list/countries/canada-flag-girl.jpg' > ", 
+"forms": "That Those",
+"correct": "That",
+inline: {"string": ["", " girl is Canadian."], width: 60},
+"answer": "That"},	
+
+{"quest": "<img src='/images/list/animals/mouse.jpg' > ", 
+"forms": "That Those",
+"correct": "That",
+inline: {"string": ["", " mouse isn’t white."], width: 60},
+"answer": "That"},	
+
+{"quest": "<img src='/images/list/berries/cranberry.jpg' > ", 
+"forms": "Those That",
+"correct": "Those",
+inline: {"string": ["", " are red berries."], width: 60},
+"answer": "Those"},	
+
+{"quest": "<img src='/images/list/countries/australia-flag-girls.jpg' > ", 
+"forms": "Those That",
+"correct": "Those",
+inline: {"string": ["", " girls aren’t Russian."], width: 60},
+"answer": "Those"},	
+
+{"quest": "<img src='/images/list/fruit/apples-red.jpg' > ", 
+"forms": "Those That",
+"correct": "Those",
+inline: {"string": ["", " apples are red."], width: 60},
+"answer": "Those"},	
+
+{"quest": "<img src='/images/list/berries/cowberry.jpg' > ", 
+"forms": "those that",
+"correct": "those",
+inline: {"string": ["Are ", " berries red?"], width: 60},
+"answer": "those"},	
+
+{"quest": "<img src='/images/list/flowers/leaves.jpg' > ", 
+"forms": "those that",
+"correct": "those",
+inline: {"string": ["Are ", " leaves green?"], width: 60},
+"answer": "those"}	
+
+		]
+		
+		} )
+</script>
+
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Вправа 4. Обери відповідь на питання.</div>
+<div class="nex-container">
+
+<div id="ph3" class="pt-holder kid-opt pt-add-img">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+		<td class="ps-quest" valign="middle" align="center">
+			<div class="ps-audio-wrapper">
+				<table width="100%"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 80px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Автоматичний перехід</span> </div>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-add-img-box"><div class="ps-add-img"></div></td>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="margin-right: 10px; position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Перевірка">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Знову"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>	
+</div>
+
+<script type="text/javascript"> 
+	var ph3 = new ph_exercise( {
+		id: "ph3", 
+		test_id: 're_gk112040',
+		//quest_num: 10,
+		//variants_num: 4,
+		shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(3);stResults($("#ph3_result"),3)},
+		//quest_type: 'audio',
+		add_img: true,
+		answer_type: 'options',
+		//input_type: 'input',
+		//spec_signs: false,
+		//rand_letters: true,
+		next_time: 2000,
+		texts: ["Правильно","Неправильно","Далі >>","Результат","Залишилося","Усього запитань","Правильних відповідей","Результат","Показати відповідь","Перейти до наступного"],
+		basic_array: [
+
+
+{"quest": "What color is this box?", 
+"image": "/images/list/objects/box-small.jpg",
+"options": ["It is white","It is green.","It is not a box.","This pen is green."], 
+"correct": 2},	
+
+{"quest": "What color is this apple?", 
+"image": "/images/list/fruit/apple-yellow.jpg",
+"options": ["This apple is yellow.","This apple is green.","This apple is red.","This is not an apple."], 
+"correct": 1},	
+
+{"quest": "What color are these berries?", 
+"image": "/images/list/berries/redcurrent.jpg",
+"options": ["They are blue.","These are 6 berries.","This berry is red.","They are red."], 
+"correct": 4},	
+
+{"quest": "What color are these mice?", 
+"image": "/images/list/animals/mice.jpg",
+"options": ["These mice are white.","They are grey.","These are cats.","They are black."], 
+"correct": 2},	
+
+{"quest": "What color is that vase?", 
+"image": "/images/list/objects/vase.jpg",
+"options": ["That vase is blue.","That vase is black.","That vase is brown.","That vase is red."], 
+"correct": 3},	
+
+{"quest": "What color are these leaves?", 
+"image": "/images/list/flowers/leaves.jpg",
+"options": ["They are yellow.","This leaf is green.","These flowers are red.","These leaves are green."], 
+"correct": 4},	
+
+{"quest": "Is that man Russian?", 
+"image": "/images/list/countries/usa-flag-man.jpg",
+"options": ["No, he isn't.","Yes, he is.","Yes, she is.","Yes, I am."], 
+"correct": 1},	
+
+{"quest": "Are these girls Australian?", 
+"image": "/images/list/countries/australia-flag-girls.jpg",
+"options": ["No, we aren't","Yes, we are.","Yes, they are.","No, you aren't."], 
+"correct": 3},	
+
+{"quest": "Is this a red bus?", 
+"image": "/images/list/transport/bus.jpg",
+"options": ["No, it isn't.","Yes, it is.","No he isn't.","Yes, he is."], 
+"correct": 1},	
+
+{"quest": "Is that apple yellow?", 
+"image": "/images/list/fruit/apple-red.jpg",
+"options": ["Yes, it is","No, it is not.","Yes, she is.","No, he isn't."], 
+"correct": 2},	
+
+{"quest": "Are those flowers red?", 
+"image": "/images/list/flowers/narcissus.jpg",
+"options": ["Yes, they are.","Yes, he is.","No, we aren't.","No, they aren't."], 
+"correct": 4},	
+
+{"quest": "Is this a Canadian girl?", 
+"image": "/images/list/countries/canada-flag-girl.jpg",
+"options": ["Yes, he is.","No, he isn't.","Yes, she is.","No, it isn't."], 
+"correct": 3},	
+
+{"quest": "How old is this girl?", 
+"image": "/images/list/people/girl.jpg",
+"options": ["She is a pupil.","She is six.","He is seven.","She is a two."], 
+"correct": 2},	
+
+{"quest": "How old is this boy?", 
+"image": "/images/list/people/boy.jpg",
+"options": ["He is a schoolboy.","He is English.","He is seven.","She is ten."], 
+"correct": 3}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Вправа 5. Знайди переклад фрази. </div>
+<div class="nex-container">
+
+<div id="ph4" class="pt-holder kid-opt">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+		<td class="ps-quest" valign="middle" align="center">
+			<div class="ps-audio-wrapper">
+				<table width="100%"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 80px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Автоматичний перехід</span> </div>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="margin-right: 10px; position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Перевірка">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Знову"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>	
+</div>
+
+<script type="text/javascript"> 
+	var ph4 = new ph_exercise( {
+		id: "ph4", 
+		test_id: 're_gk112050',
+		//quest_num: 12,
+		variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(4); stResults($("#ph4_result"),4)},
+		next_time: 2000,
+		texts: ["Правильно","Неправильно","Далі >>","Результат","Залишилося","Усього запитань","Правильних відповідей","Результат","Показати відповідь","Перейти до наступного"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/accessories/handbag.jpg'>Якого кольору ця сумка?", 
+"answer": "What color is this bag?"},	
+
+{"quest": "<img src='/images/list/fruit/apples.jpg'>Якого кольору ті яблука?", 
+"answer": "What color are those apples?"},	
+
+{"quest": "<img src='/images/list/people/boy-2.jpg'>Скільки років цьому хлопчикові.", 
+"answer": "How old is this boy?"},	
+
+{"quest": "<img src='/images/list/people/girl-1.jpg'>Скільки років тій дівчинці?", 
+"answer": "How old is that girl?"},	
+
+{"quest": "<img src='/images/list/people/men.jpg'>Ці чоловіки - американці.", 
+"answer": "These men are American."},	
+
+{"quest": "<img src='/images/list/people/girls.jpg'>Ті дівчинки - австралійки.", 
+"answer": "Those girls are Australian."},	
+
+{"quest": "<img src='/images/list/flowers/tulip.jpg'>Це червона квітка.", 
+"answer": "This is a red flower."},	
+
+{"quest": "<img src='/images/list/objects/box-big.jpg'>Це коричнева коробка.", 
+"answer": "That is a brown box."},	
+
+{"quest": "<img src='/images/list/animals/mice.jpg'>Ці миші сірі.", 
+"answer": "These mice are grey."},	
+
+{"quest": "<img src='/images/list/transport/buses.jpg'>Ті автобуси сині.", 
+"answer": "Those buses are blue."},	
+
+{"quest": "<img src='/images/list/objects/vase.jpg'>Ця ваза коричнева.", 
+"answer": "This vase is brown."},	
+
+{"quest": "<img src='/images/list/fruit/apple.jpg'>То яблуко зелене.", 
+"answer": "That apple is green."},	
+
+{"quest": "<img src='/images/list/flowers/snowdrop.jpg'>Ті квіти білі?", 
+"answer": "Are those flowers white?"},	
+
+{"quest": "<img src='/images/list/objects/pencil.jpg'>Цей олівець жовтий?", 
+"answer": "Is this pencil yellow?"}	
+
+		]
+		
+		} )
+</script>
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Вправа 6. Зроби переклад з допомогою запропонованих слів. </div>
+<div class="nex-container">
+
+<div id="ph5" class="pt-holder kid-opt">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+		<td class="ps-quest" valign="middle" align="center">
+			<div class="ps-audio-wrapper">
+				<table width="100%"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 80px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Автоматичний перехід</span> </div>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="margin-right: 10px; position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Перевірка">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Знову"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>	
+</div>
+
+<script type="text/javascript"> 
+	var ph5 = new ph_exercise( {
+		id: "ph5", 
+		test_id: 're_gk112060',
+		//quest_num: 12,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(5); stResults($("#ph5_result"),5)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		//input_type: 'input',
+		spec_signs: [".", "?"],
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Правильно","Неправильно","Далі >>","Результат","Залишилося","Усього запитань","Правильних відповідей","Результат","Показати відповідь","Перейти до наступного"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/objects/vase.jpg'>Якого кольору ця ваза?", 
+"forms": "what color is this vase", 
+"correct": "What color is this vase?", 
+"answer": "What color is this vase?"},	
+
+{"quest": "<img src='/images/list/fruit/apples-red.jpg'>Якого кольору ті яблука?", 
+"forms": "what color are those apples", 
+"correct": "What color are those apples?", 
+"answer": "What color are those apples?"},	
+
+{"quest": "<img src='/images/list/people/boy-3.jpg'>Скільки років цьому хлопчикові?", 
+"forms": "how old is this boy", 
+"correct": "How old is this boy?", 
+"answer": "How old is this boy?"},	
+
+{"quest": "<img src='/images/list/people/girl.jpg'>Скільки років тій дівчинці?", 
+"forms": "how old is that girl", 
+"correct": "How old is that girl?", 
+"answer": "How old is that girl?"},	
+
+{"quest": "<img src='/images/list/flowers/snowdrop.jpg'>Ці квіти білі.", 
+"forms": "these flowers are white", 
+"correct": "These flowers are white.", 
+"answer": "These flowers are white."},	
+
+{"quest": "<img src='/images/list/countries/australia-map-girls.jpg'>Ті дівчинки - австралійки.", 
+"forms": "those girls are Australian", 
+"correct": "Those girls are Australian.", 
+"answer": "Those girls are Australian."},	
+
+{"quest": "<img src='/images/list/berries/strawberry-1.jpg'>Це червона ягода.", 
+"forms": "this is a red berry", 
+"correct": "This is a red berry.", 
+"answer": "This is a red berry."},	
+
+{"quest": "<img src='/images/list/objects/box-small.jpg'>Це зелена коробка.", 
+"forms": "that is a green box", 
+"correct": "That is a green box.", 
+"answer": "That is a green box."},	
+
+{"quest": "<img src='/images/list/professions/journalists.jpg'>Ці чоловіки - журналісти.", 
+"forms": "these men are journalists", 
+"correct": "These men are journalists.", 
+"answer": "These men are journalists."},	
+
+{"quest": "<img src='/images/list/professions/dancers.jpg'>Ті жінки - танцівниці.", 
+"forms": "those women are dancers", 
+"correct": "Those women are dancers.", 
+"answer": "Those women are dancers."},	
+
+{"quest": "<img src='/images/list/accessories/handbag.jpg'>Ця сумка коричнева.", 
+"forms": "this bag is brown", 
+"correct": "This bag is brown.", 
+"answer": "This bag is brown."},	
+
+{"quest": "<img src='/images/list/flowers/leaf.jpg'>Той листок зелений.", 
+"forms": "that leaf is green", 
+"correct": "That leaf is green.", 
+"answer": "That leaf is green."}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+
+</div> 
+</div>
+
+<div class="nex-header nex-footer"> <span class="nex-open-prev nex-f-button  nex-btn-disable">‹‹ Попереднє </span>|<span class="nex-open-next nex-f-button">Наступне ››</span></div>
+</div>
+
+<script type="text/javascript"> 
+
+   var nb1 = new nex_block( {
+	id: "nb1",
+	need_test: [0,0,0,0,0,0]
+   } )
+
+</script>
+
+
+<br/><br/><br/><br/><br/><br/>	
+
+	
+	</div>
+</div>
+
+<div id="for_tab02" class="pBlock" style="display: none">
+	<div class="inpBlock">
+<br/>
+<h3 class="su-step-title">Вказівні займенники <em>this</em> і <em>that</em></h3>	
+<h4 class="page-pp">Значення</h4>
+<p> 
+Займенник <strong>this</strong> вживаємо, щоб указати на близький предмет або людину; перекладаємо як «цей, ця, це, ці». 
+</p>
+<p> 
+Займенник <strong>that</strong> вживаємо, щоб указати на віддалений предмет або людину; перекладаємо як «той, та, те, ті». 
+</p>
+
+<h4 class="page-pp">Форми</h4>
+
+<p> 
+Займенники this і that мають різні форми однини та множини
+</p>
+
+
+<table class="mod-table" cellspacing="15">
+ <tr>
+	<th>Однина</th><th>Множина</th>
+ </tr>
+ <tr>
+	<td><span class="gr-ht"><strong>this</strong></span></td><td><span class="gr-ht"> <strong>these</strong></span></td> 
+</tr>
+ <tr>
+	<td><span class="gr-ht"> <strong>that</strong></span></td><td><span class="gr-ht"> <strong>those</strong></span></td> 
+</tr>
+</table>
+
+
+<h4 class="page-pp">Вживання</h4>
+<p> 
+Займенники <strong>this</strong> і <strong>that</strong> можуть уживатися разом з іменниками та самостійно. 
+</p>
+<p> 
+Якщо <strong>this</strong> або <strong>that</strong> вживаються разом з іменником, їхня форма має відповідати його числу. Перед таким іменником артикль не ставимо.  
+</p>
+
+<table class="kids-ex" style="width: 370px;">
+<tr>
+<td><img src="/images/list/people/boy.jpg" width="60"></td>
+<td><strong>this boy</strong> — цей хлопчик</td>
+</tr>
+<tr>
+<td><img src="/images/list/people/girl.jpg" width="60"></td>
+<td><strong>that girl</strong> — та дівчинка</td>
+</tr>
+<tr>
+<td><img src="/images/list/fruit/apples.jpg" width="60"></td>
+<td><strong>these apples</strong> — ці яблука</td>
+</tr>
+<tr>
+<td><img src="/images/list/fruit/oranges.jpg" width="60"></td>
+<td><strong>those oranges</strong> — ті апельсини</td>
+</tr>
+</table>
+
+<p> 
+<strong>This</strong> і <strong>that</strong> можуть уживатися самостійно. Коли вони є підметом у зворотах на зразок <span class="eg">This is</span>, їхня форма має відповідати числу іменника. Українською в таких реченнях часто перекладаємо їх словом «це» незалежно від числа.
+</p>
+
+<table class="kids-ex" style="width: 370px;">
+<tr>
+<td><img src="/images/list/fruit/apple.jpg" width="60"></td>
+<td><strong>This is an apple.</strong> - Це яблуко.</td>
+</tr>
+<tr>
+<td><img src="/images/list/furniture/lamp.jpg" width="60"></td>
+<td><strong>That is a lamp.</strong> - Це лампа.</td>
+</tr>
+<tr>
+<td><img src="/images/list/fruit/apples.jpg" width="60"></td>
+<td><strong>These are apples</strong> - Це яблука.</td>
+</tr>
+<tr>
+<td><img src="/images/list/furniture/lamps.jpg" width="60"></td>
+<td><strong>Those are lamps.</strong> - Це лампи.</td>
+</tr>
+</table>
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+	</div>
+</div>
+
+
+<div id="for_tab03" class="pBlock" style="display: none">
+	<div class="inpBlock">
+	<br/>
+<h3 class="su-step-title">Результати вправ</h3>
+
+<br/>
+<table class="st-progress">
+<col width="245"><col width="130"><col>
+<thead><th>Назва</th><th>Статус</th><th>Результат</th><thead>
+<tr><td class="col-one">Вправа 1</td><td id="gen_step0">ще не виконано</td><td><span id="step0" style="display:none">0</span></td></tr>
+<tr><td class="col-one">Вправа 2</td><td id="gen_step1">ще не виконано</td><td><span id="step1">0</span>%</td></tr>
+<tr><td class="col-one">Вправа 3</td><td id="gen_step2">ще не виконано</td><td><span id="step2">0</span>%</td></tr>
+<tr><td class="col-one">Вправа 4</td><td id="gen_step3">ще не виконано</td><td><span id="step3">0</span>%</td></tr>
+<tr><td class="col-one">Вправа 5</td><td id="gen_step4">ще не виконано</td><td><span id="step4">0</span>%</td></tr>
+<tr><td class="col-one">Вправа 6</td><td id="gen_step5">ще не виконано</td><td><span id="step5">0</span>%</td></tr>
+</table> 
+
+
+<br/><br/><br/>
+
+<h3 class="su-step-title">Вивчені слова</h3>
+<br/>
+<ul class="final-v-list">		
+
+<li>
+<img src="/images/list/colors/red.jpg" width="50">
+<span class="f-vl-orig"> red</span> 
+<span class="f-vl-translate"> червоний</span>
+</li>
+
+<li>
+<img src="/images/list/colors/green.jpg" width="50">
+<span class="f-vl-orig"> green</span> 
+<span class="f-vl-translate"> зелений</span>
+</li>
+
+<li>
+<img src="/images/list/colors/yellow.jpg" width="50">
+<span class="f-vl-orig"> yellow</span> 
+<span class="f-vl-translate"> жовтий</span>
+</li>
+
+<li>
+<img src="/images/list/colors/blue.jpg" width="50">
+<span class="f-vl-orig"> blue</span> 
+<span class="f-vl-translate"> синій</span>
+</li>
+
+<li>
+<img src="/images/list/colors/white.jpg" width="50">
+<span class="f-vl-orig"> white</span> 
+<span class="f-vl-translate"> білий</span>
+</li>
+
+<li>
+<img src="/images/list/colors/black.jpg" width="50">
+<span class="f-vl-orig"> black</span> 
+<span class="f-vl-translate"> чорний</span>
+</li>
+
+<li>
+<img src="/images/list/colors/gray.jpg" width="50">
+<span class="f-vl-orig"> gray</span> 
+<span class="f-vl-translate"> сірий</span>
+</li>
+
+<li>
+<img src="/images/list/colors/brown.jpg" width="50">
+<span class="f-vl-orig"> brown</span> 
+<span class="f-vl-translate"> коричневий</span>
+</li>
+
+<li>
+<img src="/images/list/colors/orange.jpg" width="50">
+<span class="f-vl-orig"> orange</span> 
+<span class="f-vl-translate"> помаранчевий</span>
+</li>
+
+<li>
+
+<span class="f-vl-orig"> color</span> 
+<span class="f-vl-translate"> колір</span>
+</li>
+
+<li>
+<img src="/images/list/objects/pencil-1.jpg" width="50">
+<span class="f-vl-orig"> pencil</span> 
+<span class="f-vl-translate"> олівець</span>
+</li>
+
+<li>
+<img src="/images/list/objects/vase.jpg" width="50">
+<span class="f-vl-orig"> vase</span> 
+<span class="f-vl-translate"> ваза</span>
+</li>
+	
+</ul>
+
+<br/><br/><br/>
+
+<h3 class="su-step-title">Вивчений матеріал</h3>
+<br/>
+
+<table class="st-progress">
+<col width="240"><col width="245">
+<thead><th class="st-orange">Тема</th><th class="st-orange">Приклад</th><thead>
+<tr valign="top"><td class="col-one">Вказівні займенники <em>this</em> і <em>that</em></td>
+<td class="mat-info">
+<div> <img src="/images/list/fruit/apple.jpg"> <span class="gr-ht">This</span> apple is green. </div>
+<div> <img src="/images/list/fruit/apple-red.jpg"> <span class="gr-ht">That</span> apple is red. </div>  
+</td>
+</table> 
+
+	
+<br><br><br><br><br><br><br/><br/><br/>
+	
+	</div>
+</div>
+
+
+
+</div>
+
+<script type="text/javascript">
+currentSection="kids";
+</script>
+		</div><nav class="lesson-pagination" aria-label="Перехід між уроками"><a href="/uk/lessons/11.html" class="previous-lesson">← <span>Урок 11<small>Займенники my, your тощо</small></span></a><a href="/uk/lessons/13.html" class="next-lesson"><span>Наступний урок<small>Означений артикль</small></span> <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav></div></main></div><footer class="site-footer"><a class="footer-brand" href="/uk/">Маленькі кроки. Великі відкриття.</a><span>Матеріали Study-Languages-Online.com · <a class="media-credits" href="/media-credits.txt">Ілюстрації та озвучення</a></span></footer><script>es_lang='ru';</script><script src="/copy-audio.js"></script><script src="/uk/copy.js"></script></body></html>

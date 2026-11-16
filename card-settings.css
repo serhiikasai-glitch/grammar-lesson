@@ -1,0 +1,7 @@
+.modern .card-reading-options{display:flex;align-items:center;flex-wrap:wrap;gap:8px 16px;margin:18px 0 8px}
+.modern .card-reading-options .transcription-toggle{margin:0;min-height:34px;box-sizing:border-box}
+.modern .transcription-language{display:flex;align-items:center;flex-wrap:wrap;gap:7px;font-size:12px;line-height:1.5;color:#6f5488;max-width:100%}
+.modern .transcription-language-select{font:inherit;line-height:1.5;color:#604477;background:#fff;border:1px solid #d9c9e5;border-radius:8px;padding:6px 9px;min-height:34px;max-width:100%;cursor:pointer}
+.modern .transcription-language-select:hover{border-color:#aa88c4}
+.modern .transcription-language-select:focus-visible,.modern .fs-sound .jp_control:focus-visible{outline:3px solid #b99bd4;outline-offset:3px}
+@media(max-width:480px){.modern .card-reading-options{gap:9px}.modern .transcription-language{width:100%;justify-content:space-between}.modern .transcription-language-select{flex:0 1 auto}.modern .fs-transcript{overflow-wrap:anywhere}}

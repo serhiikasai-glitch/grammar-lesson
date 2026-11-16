@@ -1,0 +1,1520 @@
+<!doctype html><html lang="en"><head><script src="/language.js"></script>
+
+  <title>Plurals — lesson 3 | Grammar for kids</title>
+  
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf8"/>
+
+
+
+
+
+<link href="/stylesheets/stylesheet.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<script src="/en/javascripts/jquery-1.4.2.min.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/effects.js?1492466881" type="text/javascript"></script>
+
+
+<link href="/stylesheets/flash-simple.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/nex-block.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/custom-theme/jquery-ui-1.8.5.custom.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/lexical-test.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/lexical-test-p.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/short-unit.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+<link href="/stylesheets/dialog_player.css?1492466882" media="screen" rel="stylesheet" type="text/css"/>
+
+<script src="/en/javascripts/flash-simple.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/nex-block.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/jquery-ui-1.8.16.dial.min.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/jquery.jplayer.min.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/jp-control.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/lexical-test.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/lexical-test-p.js?1492466881" type="text/javascript"></script>
+<script src="/en/javascripts/short-unit.js?1492466881" type="text/javascript"></script>
+<script type="text/javascript">
+openTabFromUrl();
+
+function stResults(source,step) {
+	var res = parseInt(source.text());
+
+	if (res>0 && res >= parseInt($("#step"+step).text()) ) {
+		var msg;
+		if (res < 60) {
+			msg='<span style="color:red" title="'+res+"%\">try again</span>";
+		} else if (res == 234) {
+			msg="<span style=\"color:#999\" title=\"Done\">completed</span>";
+		} else if (res > 95) {
+			msg='<span style="color:green" title="'+res+"%\">excellent</span>";
+		} else if (res <= 95 && res > 80) {
+			msg='<span style="color:blue" title="'+res+"%\">very good</span>";
+		}else {
+			msg='<span style="color:blue" title="'+res+"%\">good</span>";
+		}
+		$("#gen_step"+step).html('<b>'+msg+'<\/b>')
+		$("#step"+step).text(res)
+	}
+}
+</script>
+
+
+
+<style>
+.ht-ex {color: red;}
+.ps-type-rand nobr span.ps-var-hidden {visibility: hidden;}
+div.ps-txt-letters:first-letter {text-transform: uppercase;}
+
+.nex-container {background-color: #fff;}
+.nex-wrapper {background-color: transparent;}
+.st-progress  td.mat-info {line-height: 37px; text-align: left; }
+.st-progress  th.st-orange {background-color: #EC642E}
+.mat-info img {width: 50px;margin-bottom: -14px;}
+.st-progress {border-collapse: collapse; margin-left: 30px; border: 1px solid #666;}
+.st-progress  td {padding: 8px 15px; border: 1px solid #666; background: #fff;text-align: center;}
+.st-progress  th {
+padding: 8px 20px; white-space: nowrap; font-size: 10px;text-align: center;
+color: white;
+text-shadow: 0px 1px 0px #1B3F20;
+background-color: #41AF50;
+background-image: url("/images/h3-bg.png");
+background-position: left bottom;
+background-repeat: repeat-x;
+}
+.st-progress  td.col-one {font-weight: bold; color: #444; text-align: left;}
+.f-vl-orig {display: block; padding-top: 3px; font-size: 12px; color: #111; font-weight: bold}
+.f-vl-translate {display: block; padding-top: 3px; font-size: 10px; color: #666;}
+.final-v-list {margin: 0; padding: 0; list-style: none; overflow: hidden;margin-left: 30px}
+.final-v-list li img {position: absolute; width: 50px; left: 2px; top: 2px; min-height: 36px;}
+.final-v-list li {width: 170px; padding: 2px 2px 2px 62px; position: relative; margin: 3px; float: left; border: 1px solid #afafaf; min-height: 37px;}
+.kids-ex td img {margin-left: 2px;}
+.kids-ex {margin: 15px; border: 1px solid #DFDFDF;border-collapse: collapse; width: 215px}
+.kids-ex td {padding: 2px 10px 2px 0; border-top: 1px solid #DFDFDF;}
+.gr-ht {color: red !important}
+.mod-table {background-color: #FFF9E5;border: 1px solid #EEB420;color: black;}
+
+
+#ph-1 .ps-type-rand span {padding: 0px 5px 1px;margin-left: 4px;}
+#ph1 .ps-type-content {white-space: nowrap}
+#ph1 .ps-type-inline .ps-txt-letters {padding: 1px 0;}
+.kid-inline .ps-inline-txt  .pt-spec .ps-type-elem {padding: 10px 23px 5px;}
+#ph2 .ps-inline-txt {font-size: 21px;}
+
+
+#ph3 .ps-string-wrapper img {position: relative; width: 94px;margin: -25px 11px -25px 0;}
+#ph3 .ps-string-wrapper {font-size: 25px;}
+#ph3 .pt-spec .ps-type-rand {min-height: 21px;margin-right: -2px;padding: 11px 3px;}
+#ph3 .ps-type-rand span,#ph3 div.ps-txt-letters {font-size: 21px;font-weight: normal;}
+#ph3 div.ps-txt-letters {padding: 7px 5px 4px;min-height: 29px;}
+#ph3 .ps-type-rand span {margin-left: 5px;}
+
+.info-list {margin-left: 15px;margin-right:0;padding:0;}
+.info-list li {list-style:circle;}
+
+</style>
+
+
+<style>
+#head .t-top-panel  {display: none;}
+</style>
+
+
+
+<meta http-equiv="content-language" content="en,en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/copy.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/modern.css"><link rel="stylesheet" href="/card-settings.css"><script src="/en/modern.js" defer></script><script src="/card-data.js" defer></script><script src="/card-settings.js" defer></script><meta name="description" content="English grammar for children: 25 lessons, clear rules and 148 interactive exercises."><link rel="alternate" hreflang="uk" href="/uk/lessons/03.html"><link rel="alternate" hreflang="ru" href="/ru/lessons/03.html"><link rel="alternate" hreflang="en" href="/en/lessons/03.html"></head><body data-locale="en" class="modern lesson-page tone-0" data-current-lesson="03"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><div class="header-inner"><a class="brand" href="/en/" aria-label="Grammar — all lessons"><span class="brand-icon"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1m0-14c3-2 6-2 9-1v14c-3-1-6-1-9 1V6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><span><strong>Grammar<span class="brand-dot">.</span></strong><small>English for kids</small></span></a><nav class="header-nav" aria-label="Main navigation"><a href="/en/#lessons">All lessons</a><a href="/en/#learning-progress" class="nav-progress"><span class="progress-dot"></span>My progress</a></nav><label class="language-picker"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M3 12h18M12 3q-8 9 0 18 8-9 0-18Z" stroke="currentColor" stroke-width="1.5"/></svg><select id="language-select" aria-label="Interface language"><option value="uk" lang="uk">Українська</option><option value="ru" lang="ru">Русский</option><option value="en" lang="en" selected>English</option></select></label></div></header><div class="lesson-layout m-menu-hidden" id="menu_content"><aside class="course-sidebar"><button class="course-toggle" aria-expanded="false" aria-controls="course-list"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 6c-3-2-6-2-9-1v14c3-1 6-1 9 1m0-14c3-2 6-2 9-1v14c-3-1-6-1-9 1V6Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg> Course outline <span>⌄</span></button><div id="course-list" class="course-list"><div class="course-list-title">Your learning journey <span>25 lessons</span></div><div class="course-module"><span class="module-label">1. First steps</span><a href="/en/lessons/01.html" class="course-lesson" data-lesson="01" ><span class="course-number">01</span><span>The article a/an. The pattern this is</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/02.html" class="course-lesson" data-lesson="02" ><span class="course-number">02</span><span>No article</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/03.html" class="course-lesson is-current" data-lesson="03" aria-current="page"><span class="course-number">03</span><span>Plurals</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/04.html" class="course-lesson" data-lesson="04" ><span class="course-number">04</span><span>Irregular plurals</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/05.html" class="course-lesson" data-lesson="05" ><span class="course-number">05</span><span>Numbers 1–10</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">2. People and numbers</span><a href="/en/lessons/06.html" class="course-lesson" data-lesson="06" ><span class="course-number">06</span><span>Personal pronouns</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/07.html" class="course-lesson" data-lesson="07" ><span class="course-number">07</span><span>Using the verb to be</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/08.html" class="course-lesson" data-lesson="08" ><span class="course-number">08</span><span>Negative forms of to be</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/09.html" class="course-lesson" data-lesson="09" ><span class="course-number">09</span><span>Questions with to be</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/10.html" class="course-lesson" data-lesson="10" ><span class="course-number">10</span><span>Numbers 10–20</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">3. Describing the world</span><a href="/en/lessons/11.html" class="course-lesson" data-lesson="11" ><span class="course-number">11</span><span>Possessive words: my, your and more</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/12.html" class="course-lesson" data-lesson="12" ><span class="course-number">12</span><span>This and that</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/13.html" class="course-lesson" data-lesson="13" ><span class="course-number">13</span><span>The definite article</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/14.html" class="course-lesson" data-lesson="14" ><span class="course-number">14</span><span>Prepositions of place</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/15.html" class="course-lesson" data-lesson="15" ><span class="course-number">15</span><span>Numbers 20–100</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">4. Things around us</span><a href="/en/lessons/16.html" class="course-lesson" data-lesson="16" ><span class="course-number">16</span><span>Pattern there is/there are</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/17.html" class="course-lesson" data-lesson="17" ><span class="course-number">17</span><span>Questions with there is / there are</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/18.html" class="course-lesson" data-lesson="18" ><span class="course-number">18</span><span>Pattern to have got</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/19.html" class="course-lesson" data-lesson="19" ><span class="course-number">19</span><span>Questions with have got</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/20.html" class="course-lesson" data-lesson="20" ><span class="course-number">20</span><span>Possessive ’s</span><span class="course-complete" hidden>✓</span></a></div><div class="course-module"><span class="module-label">5. Talking about actions</span><a href="/en/lessons/21.html" class="course-lesson" data-lesson="21" ><span class="course-number">21</span><span>The verb can</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/22.html" class="course-lesson" data-lesson="22" ><span class="course-number">22</span><span>The simple present tense (Present Simple)</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/23.html" class="course-lesson" data-lesson="23" ><span class="course-number">23</span><span>Present Simple: special cases</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/24.html" class="course-lesson" data-lesson="24" ><span class="course-number">24</span><span>Present Simple questions</span><span class="course-complete" hidden>✓</span></a><a href="/en/lessons/25.html" class="course-lesson" data-lesson="25" ><span class="course-number">25</span><span>Adverbs of frequency</span><span class="course-complete" hidden>✓</span></a></div></div></aside><main id="contentcell" class="lesson-main"><div id="main"><a class="back-to-lessons" href="/en/#lessons">← All lessons</a><div class="lesson-heading"><span class="eyebrow">First steps <span class="heading-separator">/</span> Lesson 03 of 25</span><h1>Plurals</h1><p>Add the endings -s and -es. <span>6 exercises</span></p></div><div class="lesson-completion"><span id="lesson-progress-label">Your lesson progress</span><div class="progress-track"><i id="lesson-progress-fill"></i></div></div><div id="contfield" class="lesson-content">
+      
+
+
+
+
+
+<div class="unit-area">
+
+
+<div id="prof_tabs">
+
+
+	<div id="tabs_row">
+            <div id="tab01" class="ptab current_ptab"><div><a href="#" style="color: #000;">Exercises</a></div></div>
+			<div id="tab02" class="ptab"><div><a href="#">Rules</a></div></div>
+            		<div id="tab03" class="ptab"><div><a href="#">Results</a></div></div>
+	</div>
+	<div style="clear: both;"></div>
+</div>
+
+<div id="for_tab01" class="pBlock" style="display: block">
+	<div class="inpBlock" id="nb1">
+	
+<div class="nex-tabs-wrapper" style="border: 0px solid #fff"> 
+	<div style="float: left; "> 
+		<ul class="nex-tabs"> 
+			<li class="nex-tab-first nex-t-active"><a href="javascript:;">1</a></li> 
+			<li><a href="javascript:;">2</a></li> 
+			<li><a href="javascript:;">3</a></li>
+			<li><a href="javascript:;">4</a></li>
+			<li><a href="javascript:;">5</a></li> 
+			<li class="nex-tab-last"><a href="javascript:;">6</a></li> 
+		</ul> 
+	</div> 
+	<div align="right" style="font-size: 12px; float: right;"> 
+		<ul class="nex-sw"> 
+			<li class="nex-sw-first nex-sw-active"><a href="javascript:;"><img src="/images/icons/fugue/application-b.png"></a></li> 
+			<li class="nex-sw-last"><a href="javascript:;"><img src="/images/icons/fugue/application-tile-vertical-b.png"></a></li> 
+		</ul>
+	</div>
+</div>
+
+
+<div class="nex-wrapper">
+<div class="nex-h-helper">
+<div class="nex-helper">
+
+<div class="nex-block nex-block-active">
+<div class="nex-header">Exercise 1. Read the phrases and their meanings. </div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 1">
+Use Next and Back to move between phrases. <br/>
+Choose a transcription language above the card. Press the sound button, listen and repeat. Letter hints are an approximate guide to pronunciation.
+</div>
+
+
+<div class="fs-container" id="fs1">
+
+
+
+
+
+
+
+
+
+
+
+<div style="position: absolute; top: 5px; right: 5px; z-index: 1000;"> 
+<div class="tb_settings-wrap"> 
+   <div class="drop_1 toopen opt-autoplay"><span style="padding-left: 12px;">Play audio</span></div> 
+	<div class="drop_2 opt-autoplay"> 
+		<div class="drop_2bl opt-autoplays" style="display: none"> 
+			<div class="drop_2x"><span class="tcheck opt-autoplay_on">automatically</span></div>
+			<div class="drop_2x"><span class="tcheck opt-autoplay_off">manually</span></div>  
+		</div>	
+	</div>
+   <div class="drop_1 toopen"><span style="padding-left: 12px;">Transcription</span></div> 
+	<div class="drop_2"> 
+		<div class="drop_2bl opt-transcribe" style="display: none"> 
+			<div class="drop_2x"><span class="tcheck opt-transcribe_on">show</span></div>
+			<div class="drop_2x"><span class="tcheck opt-transcribe_off">hide</span></div>  
+		</div>	
+	</div>
+
+</div> 
+<div class="tb_settings"><span>Settings</span></div> 
+</div>
+
+	<div class="fs-show-count">&nbsp;</div>
+	<div class="fs-window">
+		<div class="fs-article-wrapper">
+			<table width="100%" cellspacing="0">
+			<col><col>
+				<tr>
+					<td rowspan="3" class="fs-img-holder" height="150">
+						<div class="fs-picture"></div>
+					</td>
+					<td height="70">
+						<div class="fs-original"></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table cellspacing="0" style="margin: 0 auto" align="center"><tr>
+							<td class="fs-transcript"></td>
+							<td style="text-align: left; height:19px;"><div class="fs-sound"> </div></td>
+						</tr></table>
+					</td>
+				</tr>
+				<tr>
+						<td><div class="fs-translate"></div></td>
+				</tr>
+			</table>
+			</div>
+			<div class="fs-buttons-wrapper noselect">
+				<div class="fs-prev fs-btn noselect fs-btn-disabled">« Back</div>
+				<div class="fs-next fs-btn noselect">Next »</div>
+		</div>			
+	</div>
+</div>
+<script type="text/javascript"> 
+	var fs1 = new flash_show( {
+		id: "fs1",
+		images: 1,
+		autoplay: 1,
+		sounds: 1,
+		transcribe: 0,
+		callback: function() { completeNex(0);stResults($("#fs-r"),0); sendResults('re_gk103010', 10, 10)},
+		orig_size: "small",
+		basic_array: [
+
+
+{"origin":"These are apple<span class=\'ht-ex\'>s<\/span>.",
+"transcript":"ðiːz ɑːɹ ˈapəlz",
+"translate":"These are apples.",
+"img":"/images/list/fruit/apples.jpg","sound":"/sounds/en/kid-grammar/3/phrase-01.mp3"},
+
+{"origin":"These are lamp<span class=\'ht-ex\'>s<\/span>.",
+"transcript":"ðiːz ɑː lˈamps",
+"translate":"These are lamps.",
+"img":"/images/list/furniture/lamps.jpg","sound":"/sounds/en/kid-grammar/3/phrase-02.mp3"},
+
+{"origin":"This is a bus.",
+"transcript":"ðɪs ɪz ɐ bˈʌs",
+"translate":"It is a bus.",
+"img":"/images/list/transport/bus.jpg","sound":"/sounds/en/kid-grammar/3/phrase-03.mp3"},
+
+{"origin":"These are bus<span class=\'ht-ex\'>es<\/span>.",
+"transcript":"ðiːz ɑː bˈʌsɪz",
+"translate":"These are buses.",
+"img":"/images/list/transport/buses.jpg","sound":"/sounds/en/kid-grammar/3/phrase-04.mp3"},
+
+{"origin":"This is a glass.",
+"transcript":"ðɪs ɪz ɐ ɡlˈas",
+"translate":"This is a glass.",
+"img":"/images/list/objects/glass.jpg","sound":"/sounds/en/kid-grammar/3/phrase-05.mp3"},
+
+{"origin":"These are glass<span class=\'ht-ex\'>es<\/span>.",
+"transcript":"ðiːz ɑː ɡlˈasɪz",
+"translate":"These are glasses.",
+"img":"/images/list/objects/glasses.jpg","sound":"/sounds/en/kid-grammar/3/phrase-06.mp3"},
+
+{"origin":"This is a box.",
+"transcript":"ðɪs ɪz ɐ bˈɒks",
+"translate":"This is a box.",
+"img":"/images/list/objects/box.jpg","sound":"/sounds/en/kid-grammar/3/phrase-07.mp3"},
+
+{"origin":"These are box<span class=\'ht-ex\'>es<\/span>.",
+"transcript":"ðiːz ɑː bˈɒksɪz",
+"translate":"They are boxes.",
+"img":"/images/list/objects/boxes.jpg","sound":"/sounds/en/kid-grammar/3/phrase-08.mp3"},
+
+{"origin":"This is a dish.",
+"transcript":"ðɪs ɪz ɐ dˈɪʃ",
+"translate":"This is a dish.",
+"img":"/images/list/objects/dish.jpg","sound":"/sounds/en/kid-grammar/3/phrase-09.mp3"},
+
+{"origin":"These are dish<span class=\'ht-ex\'>es<\/span>.",
+"transcript":"ðiːz ɑː dˈɪʃɪz",
+"translate":"These are dishes.",
+"img":"/images/list/objects/dishes.jpg","sound":"/sounds/en/kid-grammar/3/phrase-10.mp3"},
+
+{"origin":"This is a peach.",
+"transcript":"ðɪs ɪz ɐ pˈiːtʃ",
+"translate":"This is a peach.",
+"img":"/images/list/fruit/peach-1.jpg","sound":"/sounds/en/kid-grammar/3/phrase-11.mp3"},
+
+{"origin":"These are peach<span class=\'ht-ex\'>es<\/span>.",
+"transcript":"ðiːz ɑː pˈiːtʃɪz",
+"translate":"These are peaches.",
+"img":"/images/list/fruit/peaches.jpg","sound":"/sounds/en/kid-grammar/3/phrase-12.mp3"},
+
+{"origin":"This is a fly.",
+"transcript":"ðɪs ɪz ɐ flˈaɪ",
+"translate":"This is a fly.",
+"img":"/images/list/insects/fly.jpg","sound":"/sounds/en/kid-grammar/3/phrase-13.mp3"},
+
+{"origin":"These are fl<span class=\'ht-ex\'>ies<\/span>.",
+"transcript":"ðiːz ɑː flˈaɪz",
+"translate":"These are flies.",
+"img":"/images/list/insects/flies.jpg","sound":"/sounds/en/kid-grammar/3/phrase-14.mp3"},
+
+{"origin":"These are bab<span class=\'ht-ex\'>ies<\/span>.",
+"transcript":"ðiːz ɑː bˈeɪbiz",
+"translate":"These are babies.",
+"img":"/images/list/people/babies.jpg","sound":"/sounds/en/kid-grammar/3/phrase-15.mp3"},
+
+{"origin":"These are strawberr<span class=\'ht-ex\'>ies<\/span>.",
+"transcript":"ðiːz ɑː stɹˈɔːbəɹiz",
+"translate":"These are strawberries.",
+"img":"/images/list/berries/strawberries.jpg","sound":"/sounds/en/kid-grammar/3/phrase-16.mp3"},
+
+{"origin":"These are boy<span class=\'ht-ex\'>s<\/span>.",
+"transcript":"ðiːz ɑː bˈɔɪz",
+"translate":"These are boys.",
+"img":"/images/list/people/boys.jpg","sound":"/sounds/en/kid-grammar/3/phrase-17.mp3"},
+
+{"origin":"These are monkey<span class=\'ht-ex\'>s<\/span>.",
+"transcript":"ðiːz ɑː mˈʌŋkiz",
+"translate":"These are monkeys.",
+"img":"/images/list/animals/monkeys.jpg","sound":"/sounds/en/kid-grammar/3/phrase-18.mp3"}
+
+		]
+		} )
+</script>	
+
+<span id="fs-r" style="display: none">234</span>	
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Exercise 2. Make the plural by adding the correct ending. </div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 2">
+Choose an option to put it in the text box. Press Check to see whether it is correct.<br/>
+Press Next for the next question. Turn on Auto advance to move on automatically after checking an answer.
+<br/><br/>
+</div>
+
+<div id="ph1" class="pt-holder kid-inline">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Auto advance</span> </div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+	<td>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+		<td class="ps-quest" valign="middle" align="center" width="200">
+			<div class="ps-audio-wrapper">
+				<table width="100"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Check">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td><td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Start again"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript"> 
+	var ph1 = new ph_exercise( {
+		id: "ph1", 
+		test_id: 're_gk103020',
+		//quest_num: 12,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(1);stResults($("#ph1_result"),1)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		input_type: 'input',
+		//tp_no_space: true,
+		intext_input: true,
+		intext_replace: true,
+		no_spacer: true,
+		spec_signs: false,
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Correct","Not quite","Next >>","Result","Remaining","Total questions","Correct answers","Result","Show the answer","Go to the next one"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/fruit/apples.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "s",
+inline: {"string": ["apple — apple", ""], width: 35},
+"answer": "s"},	
+
+{"quest": "<img src='/images/list/fruit/oranges.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "s",
+inline: {"string": ["orange - orange", ""], width: 35},
+"answer": "s"},	
+
+{"quest": "<img src='/images/list/fruit/bananas.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "s",
+inline: {"string": ["banana - banana", ""], width: 35},
+"answer": "s"},	
+
+{"quest": "<img src='/images/list/insects/bees.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "s",
+inline: {"string": ["bee — bee", ""], width: 35},
+"answer": "s"},	
+
+{"quest": "<img src='/images/list/flowers/trees.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "s",
+inline: {"string": ["tree — tree", ""], width: 35},
+"answer": "s"},	
+
+{"quest": "<img src='/images/list/people/boys.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "ys",
+inline: {"string": ["boy — bo", ""], width: 35},
+"answer": "ys"},	
+
+{"quest": "<img src='/images/list/insects/flies.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "ies",
+inline: {"string": ["fly — fl", ""], width: 35},
+"answer": "ies"},	
+
+{"quest": "<img src='/images/list/people/babies.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "ies",
+inline: {"string": ["baby — bab", ""], width: 35},
+"answer": "ies"},	
+
+{"quest": "<img src='/images/list/transport/buses.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["bus — bus", ""], width: 35},
+"answer": "es"},	
+
+{"quest": "<img src='/images/list/objects/dishes.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["dish — dish", ""], width: 35},
+"answer": "es"},	
+
+{"quest": "<img src='/images/list/objects/glasses.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["glass — glass", ""], width: 35},
+"answer": "es"},	
+
+{"quest": "<img src='/images/list/objects/boxes.jpg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["box — box", ""], width: 35},
+"answer": "es"},	
+
+{"quest": "<img src='/learning-images/three-hairbrushes.svg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["brush — brush", ""], width: 35},
+"answer": "es"},	
+
+{"quest": "<img src='/learning-images/eight-potatoes.svg' > ", 
+"forms": "s es ies ys",
+"correct": "es",
+inline: {"string": ["potato - potato", ""], width: 35},
+"answer": "es"}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Exercise 3. Fill in the article. Choose “—” if no article is needed.</div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 3">
+Choose an option to put it in the text box. Press Check to see whether it is correct.<br/>
+Press Next for the next question. Turn on Auto advance to move on automatically after checking an answer.
+<br/><br/>
+</div>
+
+<div id="ph2" class="pt-holder kid-inline">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Auto advance</span> </div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+	<td>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+		<td class="ps-quest" valign="middle" align="center" width="200">
+			<div class="ps-audio-wrapper">
+				<table width="100"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Check">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td><td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Start again"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>	
+</div>
+
+<script type="text/javascript"> 
+	var ph2 = new ph_exercise( {
+		id: "ph2", 
+		test_id: 're_gk103030',
+		//quest_num: 10,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() { completeNex(2);stResults($("#ph2_result"),2)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		input_type: 'input',
+		//tp_no_space: true,
+		intext_input: true,
+		intext_replace: true,
+		spec_signs: false,
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Correct","Not quite","Next >>","Result","Remaining","Total questions","Correct answers","Result","Show the answer","Go to the next one"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/meal/water.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["This is ", "water."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/meal/juice.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["This is ", "juice."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/people/girl-1.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["This is ", "Sophie."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/objects/dish.jpg' > ", 
+"forms": "a an —",
+"correct": "a",
+inline: {"string": ["This is ", "dish."], width: 30},
+"answer": "a"},	
+
+{"quest": "<img src='/images/list/transport/bus.jpg' > ", 
+"forms": "a an —",
+"correct": "a",
+inline: {"string": ["This is ", "bus."], width: 30},
+"answer": "a"},	
+
+{"quest": "<img src='/images/list/fruit/orange.jpg' > ", 
+"forms": "a an —",
+"correct": "an",
+inline: {"string": ["This is ", "orange."], width: 30},
+"answer": "an"},	
+
+{"quest": "<img src='/images/list/accessories/umbrella.jpg' > ", 
+"forms": "a an —",
+"correct": "an",
+inline: {"string": ["This is ", "umbrella."], width: 30},
+"answer": "an"},	
+
+{"quest": "<img src='/images/list/fruit/peaches.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["These are ", "peaches."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/flowers/trees.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["These are ", "trees."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/insects/flies.jpg' > ", 
+"forms": "a an —",
+"correct": "—",
+inline: {"string": ["These are ", "flies."], width: 30},
+"answer": "—"},	
+
+{"quest": "<img src='/images/list/flowers/tree.jpg' > ", 
+"forms": "a an —",
+"correct": "a",
+inline: {"string": ["This is ", "tree."], width: 30},
+"answer": "a"},	
+
+{"quest": "<img src='/images/list/insects/bee.jpg' > ", 
+"forms": "a an —",
+"correct": "a",
+inline: {"string": ["This is ", "bee."], width: 30},
+"answer": "a"}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Exercise 4. Change the sentence to the plural.</div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 4">
+Select the words in the correct order to make a sentence. Then press Check.<br/>
+If you make a mistake, press the cross next to the text box to start again.
+<br/>
+Press Next for the next question. Turn on Auto advance to move on automatically after checking an answer.
+<br/><br/>
+</div>
+<div class="nex-ex-box" title="Example for exercise 4">
+<br/><br/>
+	This is a table. =&gt; <strong>These are tables.</strong>
+
+</div>
+
+<div id="ph3" class="pt-holder">
+
+
+<div class="pt-spacer">
+<div class="ps-wrapper pt-spec">
+<div class="ps-alert-container"><div class="ps-alert-rt"><div class="ps-alert"> &nbsp;</div></div></div>
+<div class="ps-top">
+	<div class="ps-final"></div>
+</div>
+<table class="ps-content" cellspacing="0">
+	<tr>
+		<td class="ps-quest" valign="middle" align="center">
+			<div class="ps-audio-wrapper">
+				<table width="100%"><tr><td style="height: 140px; text-align: center"><div class="ps-audio-holder"><div class="ps-audio"></div></div></td></tr></table>
+			</div>
+			<div class="ps-string-holder">
+				<table><tr><td class="ps-string-wrapper" style="height: 80px;">&nbsp;</td></tr></table>
+			</div>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div class="ps-autoplay-wrapper"><input class="ps-autoplay" type="checkbox"/> <span>Auto advance</span> </div>
+		<table class="ps-answers-table" align="center" width="100%" style="margin: 0 auto">
+		<tr>
+		<td class="ps-tasks" valign="top">
+		<div class="ps-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="ps-type-rand"></div>
+			<div class="ps-type-content" style="margin-right: 10px; position: relative;"><input type="text" class="ps-type-field for_keyb ps-txt-letters"/>
+				<div class="ps-txt-letters">&nbsp;</div>				
+			</div>
+			<div style="display: none;" class="ps-buttons ps-type-check-wrapper">
+			</div>
+			<div class="ps-type-elements">
+			</div>
+		</div>			
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+	<tr>
+		<td><div class="ps-bottom">
+		<span class="ps-buttons ps-type-check-wrapper"><input type="button" class="ps-check-type" value="Check">
+		<input type="button" class="ps-next" value="Далее >>" style="visibility: hidden;">
+		</span>
+		</div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="ps-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="ps-info"> &nbsp;  </div></td>
+			<td><div class="ps-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="ps-es-btn ps-start" value="Start again"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>	
+</div>
+
+<script type="text/javascript"> 
+	var ph3 = new ph_exercise( {
+		id: "ph3", 
+		test_id: 're_gk103040',
+		quest_num: 12,
+		//variants_num: 4,
+		//shuffle_quest: false,
+		//random_order: false,
+		auto_play: false,
+		callback: function() {completeNex(3); stResults($("#ph2_result"),3)},
+		//quest_type: 'audio',
+		answer_type: 'type',
+		//input_type: 'input',
+		spec_signs: ["."],
+		rand_letters: true,
+		next_time: 2000,
+		texts: ["Correct","Not quite","Next >>","Result","Remaining","Total questions","Correct answers","Result","Show the answer","Go to the next one"],
+		basic_array: [
+
+
+{"quest": "<img src='/images/list/accessories/umbrella.jpg'>This is an umbrella.", 
+"forms": "these are umbrellas umbrellaes", 
+"correct": "These are umbrellas.", 
+"answer": "These are umbrellas."},	
+
+{"quest": "<img src='/images/list/animals/dog.jpg'>This is a dog.", 
+"forms": "these are dogs doges", 
+"correct": "These are dogs.", 
+"answer": "These are dogs."},	
+
+{"quest": "<img src='/images/list/furniture/table.jpg'>This is a table.", 
+"forms": "these are tables tabls", 
+"correct": "These are tables.", 
+"answer": "These are tables."},	
+
+{"quest": "<img src='/images/list/people/girl.jpg'>This a girl.", 
+"forms": "these are girls girles", 
+"correct": "These are girls.", 
+"answer": "These are girls."},	
+
+{"quest": "<img src='/images/list/transport/bus.jpg'>This is a bus.", 
+"forms": "these are buses buss", 
+"correct": "These are buses.", 
+"answer": "These are buses."},	
+
+{"quest": "<img src='/images/list/flowers/tree.jpg'>This is a tree.", 
+"forms": "these are trees treess", 
+"correct": "These are trees.", 
+"answer": "These are trees."},	
+
+{"quest": "<img src='/images/list/fruit/peach-1.jpg'>This is a peach.", 
+"forms": "these are peaches peachs", 
+"correct": "These are peaches.", 
+"answer": "These are peaches."},	
+
+{"quest": "<img src='/images/list/people/baby.jpg'>This is a baby.", 
+"forms": "these are babies babys", 
+"correct": "These are babies.", 
+"answer": "These are babies."},	
+
+{"quest": "<img src='/images/list/vegetables/potato.jpg'>This is a potato.", 
+"forms": "these are potatoes potatos", 
+"correct": "These are potatoes.", 
+"answer": "These are potatoes."},	
+
+{"quest": "<img src='/images/list/vegetables/tomato.jpg'>This is a tomato.", 
+"forms": "these are tomatoes tomatos", 
+"correct": "These are tomatoes.", 
+"answer": "These are tomatoes."},	
+
+{"quest": "<img src='/images/list/objects/glass.jpg'>This is a glass.", 
+"forms": "these are glasses glass", 
+"correct": "These are glasses.", 
+"answer": "These are glasses."},	
+
+{"quest": "<img src='/images/list/berries/strawberry-1.jpg'>This is a strawberry.", 
+"forms": "these are strawberries strawberrys", 
+"correct": "These are strawberries.", 
+"answer": "These are strawberries."},	
+
+{"quest": "<img src='/images/list/objects/dish.jpg'>This is a dish.", 
+"forms": "these are dishes dishs", 
+"correct": "These are dishes.", 
+"answer": "These are dishes."},	
+
+{"quest": "<img src='/images/list/animals/monkey.jpg'>This is a monkey.", 
+"forms": "these are monkeys monkeis", 
+"correct": "These are monkeys.", 
+"answer": "These are monkeys."}	
+
+		]
+		
+		} )
+</script>
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Exercise 5. Choose the sentence that matches the picture. </div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 5">
+Choose an option from the list. A message will tell you whether it is correct.<br/>
+Press Next for the next question. Turn on Auto advance to move on automatically after checking an answer.
+<br/><br/>
+</div>
+
+<div id="ch2" class="lt-holder">
+<div class="lt-spacer">	
+
+
+
+
+
+
+<div class="es-ex-wrapper">
+
+<div class="es-ex-alert-container"><div class="es-ex-alert-rt"><div class="es-ex-alert"> &nbsp;</div></div></div>
+<div class="es-ex-top">
+	<div class="es-ex-autoplay-wrapper"><input class="es-ex-autoplay" type="checkbox"/> <span>Auto advance</span> </div>
+	<div class="es-ex-final"></div>
+
+</div>
+<table class="es-ex-content" cellspacing="0">
+	<tr>
+		<td class="es-ex-quest" width="40%" valign="middle" align="center">
+			<div class="es-ex-audio-wrapper">
+				<table><tr><td style="height: 140px;"><div class="es-ex-audio-holder"><div class="es-ex-audio"></div></div></td></tr></table>
+			</div>
+			<div class="es-ex-string-holder">
+				<table><tr><td class="es-ex-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+
+		</td>
+		<td class="es-ex-tasks" height="180">
+			<div class="yn-answer-type">
+					<p class="es-yn-task-p">This means:</p>
+					<div class="es-yn-variant-wrapper"><div class="es-yn-variant yn-trans">&nbsp;</div></div>
+					<div class="es-ex-buttons yn-btns">
+						<input type="button" class="es-ex-es-btn yn-yes" value="Yes"/> &nbsp;&nbsp;&nbsp;&nbsp; <input value="No" type="button" class="es-ex-es-btn yn-no"/>
+					</div>
+			</div>
+		<div class="es-ex-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="es-ex-type-rand"></div>
+				<div style="margin-right: 10px"><input type="text" class="es-ex-type-field for_keyb ex-txt-letters"/> </div>
+			<div class="es-ex-buttons es-ex-type-check-wrapper">
+				<input type="button" class="es-ex-check-type" value="Check">
+			</div>
+			<div class="es-ex-type-elements">
+				
+			</div>
+		</div>			
+		</td>
+	</tr>
+	<tr>
+		<td><div class="es-ex-bottom"><input type="button" class="es-ex-next" value="Далее >>" style="font-size: 12px; visibility: hidden;"></div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="es-ex-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="es-ex-info"> &nbsp;  </div></td>
+			<td><div class="es-ex-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="es-ex-es-btn es-ex-start" value="Start again"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript"> 
+	var ch2 = new ch_exercise( {
+		id: "ch2", 
+		test_id: 're_gk103050',
+		auto_play: false,
+		quest_num: 15,
+		callback: function() { completeNex(4);stResults($("#ch2_result"),4)},
+		variants_num: 5,
+		quest_type: 'image',
+		texts: ["Correct","Not quite","Next >>","Result","Remaining","Total questions","Correct answers","Result"],
+		basic_array: [
+		
+
+
+['/images/list/flowers/trees.jpg', "These are trees."],	
+
+['/images/list/furniture/lamps.jpg', "These are lamps."],	
+
+['/images/list/transport/bus.jpg', "This is a bus."],	
+
+['/images/list/people/man.jpg', "This is a man."],	
+
+['/images/list/people/girls.jpg', "These are girls."],	
+
+['/images/list/objects/boxes.jpg', "These are boxes."],	
+
+['/images/list/meal/milk.jpg', "This is milk."],	
+
+['/images/list/objects/dishes.jpg', "These are dishes."],	
+
+['/images/list/furniture/chair.jpg', "This is a chair."],	
+
+['/images/list/fruit/peaches.jpg', "These are peaches."],	
+
+['/images/list/objects/rucksack.jpg', "This is a bag."],	
+
+['/images/list/insects/flies.jpg', "These are flies."],	
+
+['/images/list/accessories/umbrella.jpg', "This is an umbrella."],	
+
+['/images/list/people/babies.jpg', "These are babies."],	
+
+['/images/list/animals/monkeys.jpg', "These are monkeys."]	
+
+
+		]
+		
+		} )
+</script>	
+
+
+</div>
+</div>
+
+<div class="nex-block">
+<div class="nex-header">Exercise 6. Choose the matching picture. </div>
+<div class="nex-container">
+<div class="nex-comment-box" title="Hint for exercise 6">
+Choose a picture from the list. A message will tell you whether it is correct.<br/>
+Press Next for the next question. Turn on Auto advance to move on automatically after checking an answer.
+<br/><br/>
+</div>
+
+<div id="ch3" class="lt-holder">
+<div class="lt-spacer">	
+
+
+
+
+
+
+<div class="es-ex-wrapper">
+
+<div class="es-ex-alert-container"><div class="es-ex-alert-rt"><div class="es-ex-alert"> &nbsp;</div></div></div>
+<div class="es-ex-top">
+	<div class="es-ex-autoplay-wrapper"><input class="es-ex-autoplay" type="checkbox"/> <span>Auto advance</span> </div>
+	<div class="es-ex-final"></div>
+
+</div>
+<table class="es-ex-content" cellspacing="0">
+	<tr>
+		<td class="es-ex-quest" width="40%" valign="middle" align="center">
+			<div class="es-ex-audio-wrapper">
+				<table><tr><td style="height: 140px;"><div class="es-ex-audio-holder"><div class="es-ex-audio"></div></div></td></tr></table>
+			</div>
+			<div class="es-ex-string-holder">
+				<table><tr><td class="es-ex-string-wrapper" style="height: 150px;">&nbsp;</td></tr></table>
+			</div>
+
+		</td>
+		<td class="es-ex-tasks" height="180">
+			<div class="yn-answer-type">
+					<p class="es-yn-task-p">This means:</p>
+					<div class="es-yn-variant-wrapper"><div class="es-yn-variant yn-trans">&nbsp;</div></div>
+					<div class="es-ex-buttons yn-btns">
+						<input type="button" class="es-ex-es-btn yn-yes" value="Yes"/> &nbsp;&nbsp;&nbsp;&nbsp; <input value="No" type="button" class="es-ex-es-btn yn-no"/>
+					</div>
+			</div>
+		<div class="es-ex-type-elem">
+			<div class="kb-show-wrapper">
+			<a class="show_keyboard" href="javascript:;">[ Use virtual keyboard ]<span class="kb_offset_top" style="display: none;">220</span></a>
+			</div>
+			<div class="es-ex-type-rand"></div>
+				<div style="margin-right: 10px"><input type="text" class="es-ex-type-field for_keyb ex-txt-letters"/> </div>
+			<div class="es-ex-buttons es-ex-type-check-wrapper">
+				<input type="button" class="es-ex-check-type" value="Check">
+			</div>
+			<div class="es-ex-type-elements">
+				
+			</div>
+		</div>			
+		</td>
+	</tr>
+	<tr>
+		<td><div class="es-ex-bottom"><input type="button" class="es-ex-next" value="Далее >>" style="font-size: 12px; visibility: hidden;"></div></td>
+		<td></td>
+	</tr>
+</table>
+<div class="es-ex-info-container">
+	<table cellspacing="0" align="center">
+		<tr>
+			<td style="padding-left: 20px;"><div class="es-ex-info"> &nbsp;  </div></td>
+			<td><div class="es-ex-buttons">&nbsp;&nbsp;&nbsp;<input type="button" class="es-ex-es-btn es-ex-start" value="Start again"/></div></td>
+		</tr>
+	</table>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript"> 
+	var ch3 = new ch_exercise( {
+		id: "ch3", 
+		test_id: 're_gk103060',
+		auto_play: false,
+		quest_num: 15,
+		variants_num: 6,
+		callback: function() { completeNex(5);stResults($("#ch3_result"),5)},
+		//quest_type: 'audio',
+		answer_type: "image",
+		texts: ["Correct","Not quite","Next >>","Result","Remaining","Total questions","Correct answers","Result"],
+		basic_array: [
+		
+
+
+['tomato', '<img width="80" src="/images/list/vegetables/tomato.jpg" />'],	
+
+['potato', '<img width="80" src="/images/list/vegetables/potato.jpg" />'],	
+
+['box', '<img width="80" src="/images/list/objects/box.jpg" />'],	
+
+['bus', '<img width="80" src="/images/list/transport/bus.jpg" />'],	
+
+['glass', '<img width="80" src="/images/list/objects/glass.jpg" />'],	
+
+['dish', '<img width="80" src="/images/list/objects/dish.jpg" />'],	
+
+['peach', '<img width="80" src="/images/list/fruit/peach.jpg" />'],	
+
+['monkey', '<img width="80" src="/images/list/animals/monkey.jpg" />'],	
+
+['baby', '<img width="80" src="/images/list/people/baby.jpg" />'],	
+
+['strawberry', '<img width="80" src="/images/list/berries/strawberry.jpg" />'],	
+
+['fly', '<img width="80" src="/images/list/insects/fly.jpg" />'],	
+
+['brush', '<img width="80" src="/images/list/accessories/brush.jpg" />'],	
+
+['tree', '<img width="80" src="/images/list/flowers/tree.jpg" />'],	
+
+['bee', '<img width="80" src="/images/list/insects/bee.jpg" />']	
+
+
+		]
+		
+		} )
+</script>	
+
+
+</div>
+</div>
+
+</div> 
+</div>
+
+<div class="nex-header nex-footer"> <span class="nex-open-prev nex-f-button  nex-btn-disable">‹‹ Previous </span>|<span class="nex-open-next nex-f-button">Next ››</span></div>
+</div>
+
+<script type="text/javascript"> 
+
+   var nb1 = new nex_block( {
+	id: "nb1",
+	need_test: [0,0,0,0,0,0]
+   } )
+
+</script>
+
+
+<br/><br/><br/><br/><br/><br/>	
+
+	
+	</div>
+</div>
+
+<div id="for_tab02" class="pBlock" style="display: none">
+	<div class="inpBlock">
+<br/>
+<h3 class="su-step-title">Plurals</h3>	
+<p> 
+When a word names one thing, person or animal, for example, <em>table</em>, <em>boy</em>, it is singular. Use the plural for two or more things, for example, <em>tables</em>, <em>boys</em> and so on
+</p>
+<h4 class="page-pp">The main rule</h4>
+
+<table cellspacing="10" class="mod-table" align="left">
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/furniture/lamp.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/furniture/lamps.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>a lamp</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>lamp<span class="gr-ht">s</span></strong></td>
+</tr>
+</table>
+
+<table cellspacing="10" class="mod-table" align="left" style="margin-left: 15px">
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/fruit/apple.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/fruit/apples.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>an apple</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>apple<span class="gr-ht">s</span></strong></td>
+</tr>
+</table>
+
+<div style="clear:both"> </div>
+
+<p> 
+To make most nouns plural, add the ending <span class="eg">-s</span>. 
+</p> 
+
+<h4 class="page-pp">Special cases</h4>
+
+<table cellspacing="10" class="mod-table" align="left">
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/objects/glass.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/objects/glasses.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>a glass</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>glass<span class="gr-ht">es</span></strong></td>
+</tr>
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/fruit/peach-1.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/fruit/peaches.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>a peach</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>peach<span class="gr-ht">es</span></strong></td>
+</tr>
+</table>
+
+<table cellspacing="10" class="mod-table" align="left" style="margin-left: 15px">
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/vegetables/tomato.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/vegetables/tomatoes.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>a tomato</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>tomato<span class="gr-ht">es</span></strong></td>
+</tr>
+<tr>
+<td style="padding-left:30px;text-align: center"><img src="/images/list/people/baby.jpg" width="70"></td>
+<td style="padding-right: 30px;text-align: center"><img src="/images/list/people/babies.jpg" width="70"></td>
+</tr>
+<tr style="text-align: center">
+<td style="padding-left:30px;font-size: 17px">
+<strong>a baby</strong></td>
+<td style="padding-right:30px;font-size: 17px"><strong>bab<span class="gr-ht">ies</span></strong></td>
+</tr>
+</table>
+
+<div style="clear:both;"></div>
+
+<p> 
+When making plurals, notice the following cases.
+</p>
+
+<ul class="info-list">
+<li>
+<p> For nouns ending in <strong>-s</strong>, <strong>-ss</strong>, <strong>-x</strong>, <strong>-sh</strong>, <strong>-ch</strong>, <strong>-o</strong> add <span class="eg">-es</span>.
+</p>
+
+<table class="kids-ex">
+<tr style="text-align: center">
+<td><img src="/images/list/transport/bus.jpg" width="60"><br/>
+<strong>a bus</strong>
+</td>
+<td><img src="/images/list/transport/buses.jpg" width="60"><br/><strong>bus<u>es</u></strong>
+</td>
+</tr>
+<tr style="text-align: center">
+<td><img src="/images/list/objects/box.jpg" width="60"><br/>
+<strong>a box</strong>
+</td>
+<td><img src="/images/list/objects/boxes.jpg" width="60"><br/><strong>box<u>es</u></strong>
+</td>
+</tr>
+<tr style="text-align: center">
+<td><img src="/images/list/objects/dish.jpg" width="60"><br/>
+<strong>a dish</strong>
+</td>
+<td><img src="/images/list/objects/dishes.jpg" width="60"><br/><strong>dish<u>es</u></strong>
+</td>
+</tr>
+</table>
+
+
+</li>
+<li>
+<p> For nouns ending in <strong>consonant + y</strong>, the ending <span class="eg">-y</span> changes to <span class="eg">-ies</span>. If the final <span class="eg">y</span> is preceded by a vowel, follow the usual rule and add <span class="eg">-s</span>.
+</p>
+<table class="kids-ex">
+<tr style="text-align: center">
+<td><img src="/images/list/berries/strawberry-1.jpg" width="60"><br/>
+<strong>a strawberry</strong>
+</td>
+<td><img src="/images/list/berries/strawberries.jpg" width="60"><br/><strong>strawberr<u>ies</u></strong>
+</td>
+</tr>
+<tr style="text-align: center">
+<td><img src="/images/list/animals/monkey-1.jpg" width="60"><br/>
+<strong>a monkey</strong>
+</td>
+<td><img src="/images/list/animals/monkeys.jpg" width="60"><br/><strong>monkey<u>s</u></strong>
+</td>
+</tr>
+</table>
+</li>
+
+</ul>
+
+
+<h4 class="page-pp">The indefinite article and plurals</h4>
+<p> 
+Notice that the indefinite article <span class="eg">a</span>/<span class="eg">an</span> is not used with plural nouns.
+</p>
+
+<table class="kids-ex">
+<tr style="text-align: center">
+<td><img src="/images/list/fruit/banana-1.jpg" width="60"><br/>
+<strong>a banana</strong>
+</td>
+<td><img src="/images/list/fruit/bananas.jpg" width="60"><br/><strong>bananas</strong>
+</td>
+</tr>
+</table>
+
+<br/><br/><br/>
+
+<h3 class="su-step-title">Patterns <em>This is</em> and <em>These are</em></h3>	
+<p> 
+Pattern <span class="eg">this is</span> is used only with singular nouns. For plural nouns, use the pattern <span class="eg">these are</span>, which also introduces things: <span class="egt">This is…</span> .
+</p> 
+
+<table cellspacing="10" class="mod-table"><tr>
+<td style="padding-left: 30px;font-size: 17px">
+<strong><span class="gr-ht">This is</span> a girl.</strong> </td>
+<td style="padding-right: 30px;"><img src="/images/list/people/girl.jpg" width="90"></td>
+</tr>
+<tr>
+<td style="padding-left: 30px;font-size: 17px">
+<strong><span class="gr-ht">These are</span> girls.</strong> </td>
+<td style="padding-right: 30px;"><img src="/images/list/people/girls.jpg" width="90"></td>
+</tr>
+</table>
+
+
+
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	
+	</div>
+</div>
+
+
+<div id="for_tab03" class="pBlock" style="display: none">
+	<div class="inpBlock">
+	<br/>
+<h3 class="su-step-title">Exercise results</h3>
+
+<br/>
+<table class="st-progress">
+<col width="245"><col width="130"><col>
+<thead><th>Name</th><th>Status</th><th>Result</th><thead>
+<tr><td class="col-one">Exercise 1</td><td id="gen_step0">not completed yet</td><td><span id="step0" style="display:none">0</span></td></tr>
+<tr><td class="col-one">Exercise 2</td><td id="gen_step1">not completed yet</td><td><span id="step1">0</span>%</td></tr>
+<tr><td class="col-one">Exercise 3</td><td id="gen_step2">not completed yet</td><td><span id="step2">0</span>%</td></tr>
+<tr><td class="col-one">Exercise 4</td><td id="gen_step3">not completed yet</td><td><span id="step3">0</span>%</td></tr>
+<tr><td class="col-one">Exercise 5</td><td id="gen_step4">not completed yet</td><td><span id="step4">0</span>%</td></tr>
+<tr><td class="col-one">Exercise 6</td><td id="gen_step5">not completed yet</td><td><span id="step5">0</span>%</td></tr>
+</table> 
+
+
+<br/><br/><br/>
+
+<h3 class="su-step-title">Words you have learned</h3>
+<br/>
+<ul class="final-v-list">		
+
+<li>
+<img src="/images/list/vegetables/tomato.jpg" width="50"> 
+<span class="f-vl-orig"> tomato</span> 
+<span class="f-vl-translate"> tomato</span>
+</li>
+
+<li>
+<img src="/images/list/vegetables/potato.jpg" width="50"> 
+<span class="f-vl-orig"> potato</span> 
+<span class="f-vl-translate"> potato</span>
+</li>
+
+<li>
+<img src="/images/list/objects/box.jpg" width="50"> 
+<span class="f-vl-orig"> box</span> 
+<span class="f-vl-translate"> box</span>
+</li>
+
+<li>
+<img src="/images/list/transport/bus.jpg" width="50"> 
+<span class="f-vl-orig"> bus</span> 
+<span class="f-vl-translate"> bus</span>
+</li>
+
+<li>
+<img src="/images/list/objects/glass.jpg" width="50"> 
+<span class="f-vl-orig"> glass</span> 
+<span class="f-vl-translate"> glass</span>
+</li>
+
+<li>
+<img src="/images/list/objects/dish.jpg" width="50"> 
+<span class="f-vl-orig"> dish</span> 
+<span class="f-vl-translate"> dish</span>
+</li>
+
+<li>
+<img src="/images/list/fruit/peach.jpg" width="50"> 
+<span class="f-vl-orig"> peach</span> 
+<span class="f-vl-translate"> peach</span>
+</li>
+
+<li>
+<img src="/images/list/animals/monkey.jpg" width="50"> 
+<span class="f-vl-orig"> monkey</span> 
+<span class="f-vl-translate"> monkey</span>
+</li>
+
+<li>
+<img src="/images/list/people/baby.jpg" width="50"> 
+<span class="f-vl-orig"> baby</span> 
+<span class="f-vl-translate"> baby</span>
+</li>
+
+<li>
+<img src="/images/list/berries/strawberry.jpg" width="50"> 
+<span class="f-vl-orig"> strawberry</span> 
+<span class="f-vl-translate"> strawberry</span>
+</li>
+
+<li>
+<img src="/images/list/insects/fly.jpg" width="50"> 
+<span class="f-vl-orig"> fly</span> 
+<span class="f-vl-translate"> fly</span>
+</li>
+
+<li>
+<img src="/images/list/accessories/brush.jpg" width="50"> 
+<span class="f-vl-orig"> brush</span> 
+<span class="f-vl-translate"> brush</span>
+</li>
+
+<li>
+<img src="/images/list/flowers/tree.jpg" width="50"> 
+<span class="f-vl-orig"> tree</span> 
+<span class="f-vl-translate"> tree</span>
+</li>
+
+<li>
+<img src="/images/list/insects/bee.jpg" width="50"> 
+<span class="f-vl-orig"> bee</span> 
+<span class="f-vl-translate"> bee</span>
+</li>
+	
+</ul>
+
+<br/><br/><br/>
+
+<h3 class="su-step-title">What you have learned</h3>
+<br/>
+
+<table class="st-progress">
+<col width="240"><col width="245">
+<thead><th class="st-orange">Topic</th><th class="st-orange">Example</th><thead>
+<tr valign="top"><td class="col-one">Plural nouns</td>
+<td class="mat-info">
+<div> <img src="/images/list/fruit/apples.jpg">apple<span class="gr-ht">s</span></div>
+<div> <img src="/images/list/objects/glasses.jpg"> glass<span class="gr-ht">es</span> </div> 
+<div> <img src="/images/list/fruit/peaches.jpg"> peach<span class="gr-ht">es</span></div> 
+<div> <img src="/images/list/people/babies.jpg"> bab<span class="gr-ht">ies</span></div>
+</td>
+</tr><tr valign="top">
+<td class="col-one">Pattern <em>These are</em></td>
+<td class="mat-info">
+<div> <img src="/images/list/people/girls.jpg"> <span class="gr-ht">These are</span> girls. </div>
+</td>
+</tr>
+</table> 
+
+
+	
+<br><br><br><br><br><br><br/><br/><br/>
+	
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+<script type="text/javascript">
+currentSection="kids";
+</script>
+		</div><nav class="lesson-pagination" aria-label="Lesson navigation"><a href="/en/lessons/02.html" class="previous-lesson">← <span>Lesson 2<small>No article</small></span></a><a href="/en/lessons/04.html" class="next-lesson"><span>Next lesson<small>Irregular plurals</small></span> <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a></nav></div></main></div><footer class="site-footer"><a class="footer-brand" href="/en/">Small steps. Big discoveries.</a><span>Learning materials: Study-Languages-Online.com · <a class="media-credits" href="/media-credits.txt">Illustrations and audio</a></span></footer><script>es_lang='ru';</script><script src="/copy-audio.js"></script><script src="/en/copy.js"></script></body></html>

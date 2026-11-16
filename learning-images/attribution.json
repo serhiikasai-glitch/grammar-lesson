@@ -1,0 +1,428 @@
+{
+  "title": "Replacement learning illustrations",
+  "createdAt": "2026-11-16T05:55:34.919Z",
+  "openmojiVersion": "16.0.0",
+  "openmojiLicenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "openmojiNotice": "OpenMoji graphics by the OpenMoji contributors, licensed CC BY-SA 4.0. Icons have been scaled, arranged and composed for learning exercises. The resulting OpenMoji-based SVG compositions are also available under CC BY-SA 4.0. No endorsement implied.",
+  "assets": {
+    "/images/list/vegetables/potatoes-2.jpg": {
+      "file": "source/media/images/eight-potatoes.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Eight clearly separated potatoes in two rows of four; lessons3 and5.",
+      "count": 8,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Marius Schnabel",
+          "description": "potato",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F954.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    "/images/list/accessories/brushes.jpg": {
+      "file": "source/media/images/three-hairbrushes.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Three hairbrushes, showing the plural noun brushes; lesson3.",
+      "count": 3,
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/list/berries/blackcurrent.jpg": {
+      "file": "source/media/images/six-blackcurrants.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Six individual blackcurrant berries, with no extra decorative berries; lesson5.",
+      "count": 6,
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/list/berries/blackberry.jpg": {
+      "file": "source/media/images/three-blackberries.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Three whole blackberry fruits; each fruit is visually separated from the other two; lesson5.",
+      "count": 3,
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/list/flowers/bluebell.jpg": {
+      "file": "source/media/images/seven-bluebells.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Seven distinct stems, each with exactly one bluebell flower; lesson5.",
+      "count": 7,
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/list/berries/gooseberry.jpg": {
+      "file": "source/media/images/thirteen-gooseberries.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "Thirteen individual gooseberries in rows of five, five and three; lesson10.",
+      "count": 13,
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/list/professions/cocks.jpg": {
+      "file": "source/media/images/two-cooks.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "A male and a female cook, for the plural phrase you are cooks; lesson7.",
+      "count": 2,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Lisa Thiel",
+          "description": "man cook",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468-200D-1F373.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Lisa Thiel",
+          "description": "woman cook",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469-200D-1F373.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    "/images/list/professions/sportsman-1.jpg": {
+      "file": "source/media/images/male-athlete.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "A male runner in sports clothes; lesson7.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Rifat Erdogan",
+          "description": "man running",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F3C3-200D-2642-FE0F.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "male"
+    },
+    "/images/list/professions/doctor-female.jpg": {
+      "file": "source/media/images/female-doctor.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "A female health worker wearing a white coat and stethoscope; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Lisa Thiel",
+          "description": "woman health worker",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469-200D-2695-FE0F.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "female"
+    },
+    "/images/list/countries/usa-president.jpg": {
+      "file": "source/media/images/usa-president.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "One male person with the American flag. Original exercise specifies nationality/gender only, no named person; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Johanna Wellnitz",
+          "description": "man",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: United States",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1FA-1F1F8.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "male",
+      "nationality": "American"
+    },
+    "/images/list/countries/britain-queen.jpg": {
+      "file": "source/media/images/britain-queen.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "One female person with the British flag. Original exercise specifies nationality/gender only, no named person; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Johanna Wellnitz",
+          "description": "woman",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Daniel Utz",
+          "description": "flag: United Kingdom",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1EC-1F1E7.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "female",
+      "nationality": "British"
+    },
+    "/images/list/countries/australia-prime.jpg": {
+      "file": "source/media/images/australia-prime.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "One female person with the Australian flag. Original exercise specifies nationality/gender only, no named person; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Johanna Wellnitz",
+          "description": "woman",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: Australia",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1E6-1F1FA.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "female",
+      "nationality": "Australian"
+    },
+    "/images/list/countries/russia-president.jpg": {
+      "file": "source/media/images/russia-president.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "One male person with the Russian flag. Original exercise specifies nationality/gender only, no named person; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Johanna Wellnitz",
+          "description": "man",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: Russia",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1F7-1F1FA.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "male",
+      "nationality": "Russian"
+    },
+    "/images/list/countries/canada-prime.jpg": {
+      "file": "source/media/images/canada-prime.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "One male person with the Canadian flag. Original exercise specifies nationality/gender only, no named person; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Johanna Wellnitz",
+          "description": "man",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: Canada",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1E8-1F1E6.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ],
+      "gender": "male",
+      "nationality": "Canadian"
+    },
+    "/images/list/countries/canada-flag.jpg": {
+      "file": "source/media/images/canada-flag.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "The canada flag for nationality vocabulary; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: Canada",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1E8-1F1E6.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    "/images/list/countries/usa-flag.jpg": {
+      "file": "source/media/images/usa-flag.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "The usa flag for nationality vocabulary; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: United States",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1FA-1F1F8.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    "/images/list/countries/ireland-flag.jpg": {
+      "file": "source/media/images/ireland-flag.svg",
+      "mimeType": "image/svg+xml",
+      "width": 320,
+      "height": 220,
+      "description": "The ireland flag for nationality vocabulary; lesson9.",
+      "count": 1,
+      "sourceUrl": "https://openmoji.org/",
+      "license": "CC BY-SA 4.0",
+      "author": "OpenMoji contributors (individual credits below)",
+      "modification": "Scaled and arranged in a self-contained educational SVG composition on a white background.",
+      "credits": [
+        {
+          "author": "Ferdinand Sorg",
+          "description": "flag: Ireland",
+          "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F1EE-1F1EA.svg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    "/stylesheets/images/preload.gif": {
+      "file": "source/media/images/loading-spinner.svg",
+      "mimeType": "image/svg+xml",
+      "width": 32,
+      "height": 32,
+      "description": "Animated loading spinner, replacing the old decorative preload GIF.",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/es-course/ps-alert-bg.png": {
+      "file": "source/media/images/answer-feedback-background.svg",
+      "mimeType": "image/svg+xml",
+      "width": 1,
+      "height": 32,
+      "description": "Pale lavender feedback-strip background; decorative only.",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/transparent-30.gif": {
+      "file": "source/media/images/translucent-overlay.svg",
+      "mimeType": "image/svg+xml",
+      "width": 1,
+      "height": 1,
+      "description": "A true 30% white translucent CSS overlay; decorative only.",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    },
+    "/images/es-course/ps-play-bg.gif": {
+      "file": "source/media/images/exercise-panel-background.svg",
+      "mimeType": "image/svg+xml",
+      "width": 1,
+      "height": 64,
+      "description": "Soft exercise-panel background strip; decorative only.",
+      "sourceUrl": null,
+      "license": "CC0-1.0",
+      "author": "Original vector artwork prepared for this website",
+      "modification": "New vector artwork.",
+      "credits": []
+    }
+  }
+}

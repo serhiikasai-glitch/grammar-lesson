@@ -1,0 +1,2 @@
+/* Preserve the original desktop layout and keep lesson navigation accessible. */
+@media(max-width:760px){body #fixWidh{min-width:0}body #container{width:96%;min-width:0}body #head{min-width:0}body #navigation{width:160px}body #contentcell{margin-left:165px}body #contfield{padding-left:12px;padding-right:12px}body .sv-wrapper{margin-left:0;margin-right:0;width:auto}body .sv-list{padding-left:12px;padding-right:12px}body .title_site{font-size:28px}}
