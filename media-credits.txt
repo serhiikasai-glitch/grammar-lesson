@@ -22,5 +22,8 @@ The original exercises specify gender and nationality only, and do not name a po
 
 AUDIO
 20 original recordings recovered from Study-Languages-Online.com via the Internet Archive.
-419 English narration files created for this website with the en-GB-SoniaNeural voice, with a slightly slower learning pace. These are newly synthesized recordings, not recovered originals.
+428 English narration files created for this website with the en-GB-SoniaNeural voice, with a slightly slower learning pace. These are newly synthesized recordings, not recovered originals.
 All audio is served as static MP3 files. No browser speech synthesis is used.
+
+UKRAINE LESSON ADAPTATION
+Country, nationality and city examples changed to Ukraine, Ukrainian and Kyiv at the site owner’s request. New recordings replace the affected card phrases. Ukrainian illustrations and their individual credits: /learning-images/ukraine-attribution.json.
