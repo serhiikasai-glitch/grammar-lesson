@@ -1,0 +1,127 @@
+{
+  "/images/list/countries/russia-map-girl.jpg": {
+    "file": "source/media/images/ukraine-country-girl.svg",
+    "path": "/learning-images/ukraine-country-girl.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "A woman next to the Ukrainian flag and the country name Ukraine. Country-of-origin example.",
+    "country": "Ukraine",
+    "license": "CC BY-SA 4.0",
+    "author": "OpenMoji contributors and original composition prepared for this website",
+    "modification": "OpenMoji people scaled and composed with a newly drawn Ukrainian flag, country label or stylised Kyiv skyline.",
+    "credits": [
+      {
+        "author": "Johanna Wellnitz",
+        "description": "woman",
+        "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  "/images/list/countries/russia-map.jpg": {
+    "file": "source/media/images/ukraine-country.svg",
+    "path": "/learning-images/ukraine-country.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "The Ukrainian blue-over-yellow flag and the country name Ukraine.",
+    "country": "Ukraine",
+    "license": "CC0-1.0",
+    "author": "Original vector artwork prepared for this website",
+    "modification": "Newly drawn Ukrainian flag or stylised Kyiv skyline.",
+    "credits": []
+  },
+  "/images/list/countries/russia-moscow-girl.jpg": {
+    "file": "source/media/images/ukraine-kyiv-girl.svg",
+    "path": "/learning-images/ukraine-kyiv-girl.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "A woman with a labelled, stylised Kyiv skyline. City-of-origin example.",
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "license": "CC BY-SA 4.0",
+    "author": "OpenMoji contributors and original composition prepared for this website",
+    "modification": "OpenMoji people scaled and composed with a newly drawn Ukrainian flag, country label or stylised Kyiv skyline.",
+    "credits": [
+      {
+        "author": "Johanna Wellnitz",
+        "description": "woman",
+        "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  "/images/list/countries/russia-moscow.jpg": {
+    "file": "source/media/images/ukraine-kyiv.svg",
+    "path": "/learning-images/ukraine-kyiv.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "A labelled, stylised Kyiv skyline with a golden-domed historic church.",
+    "country": "Ukraine",
+    "city": "Kyiv",
+    "license": "CC0-1.0",
+    "author": "Original vector artwork prepared for this website",
+    "modification": "Newly drawn Ukrainian flag or stylised Kyiv skyline.",
+    "credits": []
+  },
+  "/images/list/countries/russian-flag-girl.jpg": {
+    "file": "source/media/images/ukraine-flag-girl.svg",
+    "path": "/learning-images/ukraine-flag-girl.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "A Ukrainian woman with the Ukrainian blue-over-yellow flag.",
+    "country": "Ukraine",
+    "license": "CC BY-SA 4.0",
+    "author": "OpenMoji contributors and original composition prepared for this website",
+    "modification": "OpenMoji people scaled and composed with a newly drawn Ukrainian flag, country label or stylised Kyiv skyline.",
+    "credits": [
+      {
+        "author": "Johanna Wellnitz",
+        "description": "woman",
+        "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F469.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  },
+  "/images/list/countries/russian-flag.jpg": {
+    "file": "source/media/images/ukraine-flag.svg",
+    "path": "/learning-images/ukraine-flag.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "The Ukrainian flag: blue upper half and yellow lower half.",
+    "country": "Ukraine",
+    "license": "CC0-1.0",
+    "author": "Original vector artwork prepared for this website",
+    "modification": "Newly drawn Ukrainian flag or stylised Kyiv skyline.",
+    "credits": []
+  },
+  "/learning-images/russia-president.svg": {
+    "file": "source/media/images/ukraine-man.svg",
+    "path": "/learning-images/ukraine-man.svg",
+    "mimeType": "image/svg+xml",
+    "width": 320,
+    "height": 220,
+    "description": "A generic Ukrainian man with the Ukrainian flag, matching the nationality and gender in the exercise.",
+    "country": "Ukraine",
+    "license": "CC BY-SA 4.0",
+    "author": "OpenMoji contributors and original composition prepared for this website",
+    "modification": "OpenMoji people scaled and composed with a newly drawn Ukrainian flag, country label or stylised Kyiv skyline.",
+    "credits": [
+      {
+        "author": "Johanna Wellnitz",
+        "description": "man",
+        "sourceUrl": "https://raw.githubusercontent.com/hfg-gmuend/openmoji/16.0.0/color/svg/1F468.svg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    ]
+  }
+}
